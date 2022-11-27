@@ -1,7 +1,8 @@
 import React from "react";
 import MobileNav from "./MobileNav";
 import { useState } from "react";
-import { Navbar, Cart, Burger, NavContainer, CloseNav } from "./NavStyles";
+import { Navbar, Cart, Burger, NavContainer } from "./NavStyles";
+import { StyledLink } from "../General/Links";
 
 function Nav() {
 	const [burger, setBurger] = useState(false);
@@ -10,9 +11,12 @@ function Nav() {
 		<Navbar>
 			<NavContainer>
 				<Burger onClick={() => setBurger(!burger)} />
-				{burger && <MobileNav />}
-				{burger && <CloseNav onClick={() => setBurger(!burger)} />}
-				<Cart />
+				<div onClick={() => setBurger(!burger)}>
+					{burger && <MobileNav />}
+				</div>
+				<StyledLink to={"/cart"}>
+					<Cart />
+				</StyledLink>
 			</NavContainer>
 		</Navbar>
 	);

@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { AiOutlineShoppingCart, AiOutlineClose } from "react-icons/ai";
+import { AiOutlineShoppingCart } from "react-icons/ai";
 import { GiHamburgerMenu } from "react-icons/gi";
 
 export const Navbar = styled.nav`
@@ -56,14 +56,5 @@ export const MobileNavUl = styled.ul`
 
 export const MobileNavLi = styled.li`
 	font-size: 36px;
-	cursor: pointer;
-`;
-
-export const CloseNav = styled(AiOutlineClose)`
-	position: fixed;
-	top: 15px;
-	right: 15px;
-	z-index: 2;
-	font-size: 30px;
 	cursor: pointer;
 `;

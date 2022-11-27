@@ -1,14 +1,25 @@
 import React from "react";
+import { StyledLink } from "../General/Links";
 import { MobileNavContainer, MobileNavLi, MobileNavUl } from "./NavStyles";
+import { Close } from "../General/Icons";
 
 function MobileNav() {
 	return (
 		<MobileNavContainer>
+			<Close />
 			<MobileNavUl>
-				<MobileNavLi>Productos</MobileNavLi>
-				<MobileNavLi>Destacados</MobileNavLi>
-				<MobileNavLi>¿Quienes Somos?</MobileNavLi>
-				<MobileNavLi>Contacto</MobileNavLi>
+				<MobileNavLi>
+					<StyledLink to={"#products"}>Productos</StyledLink>
+				</MobileNavLi>
+				<MobileNavLi>
+					<StyledLink to={"#popular"}>Destacados</StyledLink>
+				</MobileNavLi>
+				<MobileNavLi>
+					<StyledLink to={"#about"}>¿Quienes Somos?</StyledLink>
+				</MobileNavLi>
+				<MobileNavLi>
+					<StyledLink to={"#contact"}>Contacto</StyledLink>
+				</MobileNavLi>
 			</MobileNavUl>
 		</MobileNavContainer>
 	);
