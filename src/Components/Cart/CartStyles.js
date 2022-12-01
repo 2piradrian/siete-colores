@@ -54,32 +54,6 @@ export const CartHr = styled.hr`
 	width: 90%;
 `;
 
-export const CartActiveButton = styled.button`
-	height: 60px;
-	width: 100%;
-	margin: 25px 0px;
-	font-weight: 400;
-	font-size: 30px;
-	border: none;
-	border-radius: 5px;
-	color: ${(props) => props.theme.white};
-	background-color: ${(props) => props.theme.darkPink};
-	cursor: pointer;
-`;
-
-export const CartInactiveButton = styled.button`
-	height: 60px;
-	width: 100%;
-	margin: 25px 0px;
-	font-weight: 400;
-	font-size: 30px;
-	border: 1px solid ${(props) => props.theme.lightBrown};
-	border-radius: 5px;
-	color: ${(props) => props.theme.lightBrown};
-	background-color: ${(props) => props.theme.white};
-	cursor: not-allowed;
-`;
-
 export const CartProductBox = styled.div`
 	width: 100%;
 	height: 70px;

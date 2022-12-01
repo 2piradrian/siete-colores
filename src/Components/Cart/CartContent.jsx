@@ -1,4 +1,5 @@
 import React from "react";
+import { ActiveButton, InactiveButton } from "../General/Global";
 import CartProduct from "./CartProduct";
 import {
 	CartContainer,
@@ -7,8 +8,6 @@ import {
 	CartProductContainer,
 	CartPrice,
 	CartHr,
-	CartActiveButton,
-	CartInactiveButton,
 } from "./CartStyles";
 
 function CartContent() {
@@ -40,10 +39,8 @@ function CartContent() {
 				<CartH2>Total:</CartH2>
 				<CartPrice>$3560</CartPrice>
 			</CartPriceContainer>
-			{false && (
-				<CartActiveButton>Solicitar al vendedor</CartActiveButton>
-			)}
-			<CartInactiveButton>Solicitar al vendedor</CartInactiveButton>
+			{false && <ActiveButton>Solicitar al vendedor</ActiveButton>}
+			<InactiveButton>Solicitar al vendedor</InactiveButton>
 		</CartContainer>
 	);
 }
