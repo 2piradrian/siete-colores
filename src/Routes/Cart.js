@@ -1,5 +1,5 @@
 import React from "react";
-import { StyledLink } from "../Components/General/Links";
+import { StyledLink } from "../Components/General/Global";
 import { Close } from "../Components/General/Icons";
 import CartContent from "../Components/Cart/CartContent";
 

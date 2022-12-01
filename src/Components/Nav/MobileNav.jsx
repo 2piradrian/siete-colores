@@ -1,5 +1,5 @@
 import React from "react";
-import { StyledLink } from "../General/Links";
+import { StyledLink } from "../General/Global";
 import { MobileNavContainer, MobileNavLi, MobileNavUl } from "./NavStyles";
 import { Close } from "../General/Icons";
 

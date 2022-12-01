@@ -2,7 +2,7 @@ import React from "react";
 import MobileNav from "./MobileNav";
 import { useState } from "react";
 import { Navbar, Cart, Burger, NavContainer } from "./NavStyles";
-import { StyledLink } from "../General/Links";
+import { StyledLink } from "../General/Global";
 
 function Nav() {
 	const [burger, setBurger] = useState(false);
