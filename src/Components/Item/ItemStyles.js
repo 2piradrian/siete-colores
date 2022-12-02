@@ -4,6 +4,10 @@ import { ActiveButton } from "../General/Global";
 export const ItemBox = styled.div`
 	min-width: 400px;
 	height: 400px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 `;
 
 export const ItemImg = styled.img`
@@ -14,15 +18,18 @@ export const ItemImg = styled.img`
 `;
 
 export const ItemTitle = styled.span`
+	width: 100%;
 	font-size: 32px;
 	font-weight: 600;
 `;
 
 export const ItemDesc = styled.p`
+	width: 100%;
 	font-size: 20px;
 `;
 
 export const SubContainer = styled.div`
+	width: 100%;
 	height: 20px;
 	margin-top: 20px;
 	display: flex;

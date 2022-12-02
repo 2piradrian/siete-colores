@@ -1,5 +1,5 @@
 import React from "react";
-import { ProductButton } from "../General/Global";
+import { ProductButton, StyledLink } from "../General/Global";
 import Item from "../Item/Item";
 import { ItemContainer, PopularContainer, PopularTitle } from "./PopularStyles";
 
@@ -20,7 +20,7 @@ function Popular() {
 					price={2700}
 				/>
 				<Item
-					key="1"
+					key="2"
 					img={notFound}
 					type="Topper"
 					title="Feliz Cumpleaños"
@@ -28,7 +28,7 @@ function Popular() {
 					price={2700}
 				/>
 				<Item
-					key="1"
+					key="3"
 					img={notFound}
 					type="Topper"
 					title="Feliz Cumpleaños"
@@ -36,7 +36,9 @@ function Popular() {
 					price={2700}
 				/>
 			</ItemContainer>
-			<ProductButton>Ver todos los productos</ProductButton>
+			<StyledLink to={"/products"}>
+				<ProductButton>Ver todos los productos</ProductButton>
+			</StyledLink>
 		</PopularContainer>
 	);
 }

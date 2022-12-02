@@ -8,7 +8,7 @@ import {
 
 import isoMobile from "../../assets/isoMobile.svg";
 import circles_illustration from "../../assets/circles_illustration.svg";
-import { ProductButton } from "../General/Global";
+import { ProductButton, StyledLink } from "../General/Global";
 
 function Hero() {
 	return (
@@ -18,7 +18,9 @@ function Hero() {
 				Diseñamos productos a medida, encontrá cortantes, selladores,
 				texturizadores y toppers para facilitar tu trabajo.
 			</StyledDescription>
-			<ProductButton>Ver productos</ProductButton>
+			<StyledLink to={"/products"}>
+				<ProductButton>Ver productos</ProductButton>
+			</StyledLink>
 			<SVGDecoration
 				src={circles_illustration}
 				alt="imagen de decoración"

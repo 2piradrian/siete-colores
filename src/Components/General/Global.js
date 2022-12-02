@@ -48,8 +48,21 @@ export const WspIso = styled.img`
 `;
 
 export const ProductButton = styled(ActiveButton)`
-	width: 70%;
+	width: 300px;
 	font-size: 25px;
 	border-radius: 12px;
 	font-weight: 500;
+`;
+
+export const Input = styled.input`
+	height: 40px;
+	width: 100%;
+	border-radius: 8px;
+	border: 2px solid ${(props) => props.theme.lightPink};
+	outline: none;
+	padding: 20px;
+
+	&::placeholder {
+		margin: 20px;
+	}
 `;
