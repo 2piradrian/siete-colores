@@ -15,10 +15,13 @@ import {
 function CartProduct(props) {
 	const [title, setTitle] = useState(props.title);
 	useEffect(() => {
-		if (props.title.length > 13) {
-			setTitle(props.title.slice(0, 13) + "...");
+		const titleCheck = props.title;
+		const viewport = window.innerWidth;
+
+		if (titleCheck.length > 13 && viewport < 500) {
+			setTitle(titleCheck.slice(0, 13) + "...");
 		} else {
-			setTitle(props.title);
+			setTitle(titleCheck);
 		}
 	}, [props.title]);
 
