@@ -2,7 +2,7 @@ import styled from "styled-components";
 import { AiOutlineShoppingCart } from "react-icons/ai";
 import { GiHamburgerMenu } from "react-icons/gi";
 
-export const Navbar = styled.nav`
+export const Navbar = styled.header`
 	height: 52px;
 	width: 100%;
 	display: flex;

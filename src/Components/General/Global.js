@@ -6,6 +6,11 @@ export const StyledLink = styled(Link)`
 	text-decoration: none;
 `;
 
+export const StyledMain = styled.main`
+	width: 100%;
+	height: auto;
+`;
+
 export const ActiveButton = styled.button`
 	height: 60px;
 	width: 100%;
@@ -30,4 +35,21 @@ export const InactiveButton = styled.button`
 	color: ${(props) => props.theme.lightBrown};
 	background-color: ${(props) => props.theme.white};
 	cursor: not-allowed;
+`;
+
+export const WspIso = styled.img`
+	width: 75px;
+	height: auto;
+	position: sticky;
+	bottom: 10px;
+	margin-right: 10px;
+	left: 100%;
+	cursor: pointer;
+`;
+
+export const ProductButton = styled(ActiveButton)`
+	width: 70%;
+	font-size: 25px;
+	border-radius: 12px;
+	font-weight: 500;
 `;
