@@ -19,8 +19,7 @@ export const PopularTitle = styled.h2`
 export const ItemContainer = styled.div`
 	width: 100%;
 	height: 45%;
-	padding: 20px 10px;
-	gap: 35px;
+	padding: 30px 10px;
 	margin: 40px 0px;
 	display: flex;
 	justify-content: start; // Esto va a dar problemas en viewports mas grandes, en responsive ponerlo en center

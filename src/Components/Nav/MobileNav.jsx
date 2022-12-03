@@ -9,13 +9,13 @@ function MobileNav() {
 			<Close />
 			<MobileNavUl>
 				<MobileNavLi>
-					<StyledLink to={"#products"}>Productos</StyledLink>
+					<StyledLink to={"/"}>Inicio</StyledLink>
+				</MobileNavLi>
+				<MobileNavLi>
+					<StyledLink to={"/products"}>Productos</StyledLink>
 				</MobileNavLi>
 				<MobileNavLi>
 					<StyledLink to={"#popular"}>Destacados</StyledLink>
-				</MobileNavLi>
-				<MobileNavLi>
-					<StyledLink to={"#about"}>¿Quienes Somos?</StyledLink>
 				</MobileNavLi>
 				<MobileNavLi>
 					<StyledLink to={"#contact"}>Contacto</StyledLink>

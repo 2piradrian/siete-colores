@@ -2,8 +2,10 @@ import styled from "styled-components";
 import { ActiveButton } from "../General/Global";
 
 export const ItemBox = styled.div`
-	min-width: 400px;
+	min-width: 350px;
+	max-width: 350px;
 	height: 400px;
+	margin: 0px 15px;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;

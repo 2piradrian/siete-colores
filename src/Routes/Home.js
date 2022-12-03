@@ -1,4 +1,5 @@
 import React from "react";
+import Contact from "../Components/Contact/Contact";
 import { StyledMain } from "../Components/General/Global";
 import Hero from "../Components/Hero/Hero";
 import Nav from "../Components/Nav/Nav";
@@ -12,6 +13,7 @@ function Home() {
 			<StyledMain>
 				<Hero />
 				<Popular />
+				<Contact />
 				<WhatsappIcon />
 			</StyledMain>
 		</>
