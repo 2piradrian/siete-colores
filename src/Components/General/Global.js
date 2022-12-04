@@ -40,11 +40,16 @@ export const InactiveButton = styled.button`
 export const WspIso = styled.img`
 	width: 75px;
 	height: auto;
+	cursor: pointer;
+	z-index: 3;
+`;
+
+export const WspLink = styled(StyledLink)`
 	position: sticky;
 	bottom: 10px;
-	margin-right: 10px;
 	left: 100%;
-	cursor: pointer;
+	margin-right: 10px;
+	z-index: 3;
 `;
 
 export const ProductButton = styled(ActiveButton)`
