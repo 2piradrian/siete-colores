@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import { Link } from "react-router-dom";
+import { wide600, wide900 } from "../../Themes/MediaQuery";
 
 export const StyledLink = styled(Link)`
 	color: ${(props) => props.theme.darkBrown};
@@ -57,6 +58,16 @@ export const ProductButton = styled(ActiveButton)`
 	font-size: 25px;
 	border-radius: 12px;
 	font-weight: 500;
+`;
+
+export const GlobalSubtitles = styled.p`
+	${wide600} {
+		font-size: 20px;
+	}
+
+	${wide900} {
+		font-size: 24px;
+	}
 `;
 
 export const Input = styled.input`

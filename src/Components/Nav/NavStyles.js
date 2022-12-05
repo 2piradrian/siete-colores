@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import { AiOutlineShoppingCart } from "react-icons/ai";
 import { GiHamburgerMenu } from "react-icons/gi";
+import { wide900 } from "../../Themes/MediaQuery";
 
 export const Navbar = styled.header`
 	height: 52px;
@@ -9,6 +10,10 @@ export const Navbar = styled.header`
 	justify-content: center;
 	align-items: center;
 	background-color: ${(props) => props.theme.darkPink};
+
+	${wide900} {
+		height: 65px;
+	}
 `;
 
 export const NavContainer = styled.nav`
@@ -24,6 +29,10 @@ export const Cart = styled(AiOutlineShoppingCart)`
 	font-size: 26px;
 	color: ${(props) => props.theme.white};
 	cursor: pointer;
+
+	${wide900} {
+		font-size: 28px;
+	}
 `;
 
 export const Burger = styled(GiHamburgerMenu)`
@@ -57,4 +66,33 @@ export const MobileNavUl = styled.ul`
 export const MobileNavLi = styled.li`
 	font-size: 36px;
 	cursor: pointer;
+`;
+
+export const DeskNavContainer = styled.nav`
+	width: 100vw;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-right: -28px;
+`;
+
+export const DeskNavUl = styled.ul`
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 30px;
+	list-style: none;
+`;
+
+export const DeskNavLi = styled.li`
+	font-size: 25px;
+	cursor: pointer;
+	& a {
+		color: ${(props) => props.theme.white};
+	}
+
+	&:hover {
+		border-bottom: 1px solid ${(props) => props.theme.white};
+	}
 `;

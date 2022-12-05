@@ -1,5 +1,5 @@
 import React from "react";
-import { ProductButton, StyledLink } from "../General/Global";
+import { GlobalSubtitles, ProductButton, StyledLink } from "../General/Global";
 import Item from "../Item/Item";
 import { ItemContainer, PopularContainer, PopularTitle } from "./PopularStyles";
 
@@ -9,7 +9,7 @@ function Popular() {
 	return (
 		<PopularContainer>
 			<PopularTitle>Lo más destacado</PopularTitle>
-			<p>¿Qué es lo qué está de moda?</p>
+			<GlobalSubtitles>¿Qué es lo qué está de moda?</GlobalSubtitles>
 			<ItemContainer>
 				<Item
 					key="1"
