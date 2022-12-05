@@ -1,8 +1,11 @@
 import styled from "styled-components";
-
+import { RiMoneyDollarCircleLine } from "react-icons/ri";
+import { FaMoneyCheckAlt } from "react-icons/fa";
 export const FooterContainer = styled.footer`
 	width: 100%;
+	height: 100%;
 	background-color: ${(props) => props.theme.darkBrown};
+	margin-top: -80px;
 `;
 
 export const Spikes = styled.div`
@@ -36,10 +39,47 @@ export const Spikes = styled.div`
 
 export const InfoContainer = styled.div`
 	width: 100%;
-	padding: 10px;
+	padding: 80px 25px 25px 10px;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+`;
+
+export const TitleContainer = styled.div`
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+`;
+
+export const FooterTitles = styled.h4`
+	color: ${(props) => props.theme.white};
+`;
+
+export const FooterDescription = styled.p`
+	color: ${(props) => props.theme.white};
 `;
 
 export const FooterColumnDiv = styled.div`
 	display: flex;
 	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+`;
+
+export const FooterRowDiv = styled.div`
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 5px;
+`;
+
+export const MoneyIcon = styled(RiMoneyDollarCircleLine)`
+	color: ${(props) => props.theme.white};
+	font-size: 18px;
+`;
+
+export const CardIcon = styled(FaMoneyCheckAlt)`
+	color: ${(props) => props.theme.white};
+	font-size: 18px;
 `;

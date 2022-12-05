@@ -16,8 +16,8 @@ function Home() {
 				<Popular />
 				<Contact />
 			</StyledMain>
-			<Footer />
 			<WhatsappIcon />
+			<Footer />
 		</>
 	);
 }
