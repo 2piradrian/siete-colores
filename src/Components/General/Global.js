@@ -20,7 +20,7 @@ export const ActiveButton = styled.button`
 	height: 60px;
 	width: 100%;
 	max-width: 1100px;
-	margin: 25px 0px;
+	margin: 5px 0px;
 	font-weight: 400;
 	font-size: 30px;
 	border: none;
@@ -34,7 +34,7 @@ export const InactiveButton = styled.button`
 	height: 60px;
 	width: 100%;
 	max-width: 1100px;
-	margin: 25px 0px;
+	margin: 5px 0px;
 	font-weight: 400;
 	font-size: 30px;
 	border: 1px solid ${(props) => props.theme.lightBrown};
@@ -64,6 +64,7 @@ export const WspLink = styled(StyledLink)`
 
 export const ProductButton = styled(ActiveButton)`
 	width: 300px;
+	margin: 25px 0px;
 	font-size: 25px;
 	border-radius: 12px;
 	font-weight: 500;

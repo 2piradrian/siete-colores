@@ -154,3 +154,11 @@ export const Quantity = styled.p`
 	font-weight: bold;
 	font-size: 18px;
 `;
+
+export const StyledButtonContainer = styled.div`
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+`;

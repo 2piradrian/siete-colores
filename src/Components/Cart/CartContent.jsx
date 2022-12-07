@@ -8,6 +8,7 @@ import {
 	CartProductContainer,
 	CartPrice,
 	CartHr,
+	StyledButtonContainer,
 } from "./CartStyles";
 
 function CartContent() {
@@ -39,8 +40,11 @@ function CartContent() {
 				<CartH2>Total:</CartH2>
 				<CartPrice>$3560</CartPrice>
 			</CartPriceContainer>
-			{false && <ActiveButton>Solicitar al vendedor</ActiveButton>}
-			<InactiveButton>Solicitar al vendedor</InactiveButton>
+			<StyledButtonContainer>
+				{false && <ActiveButton>Solicitar al vendedor</ActiveButton>}
+				<InactiveButton>Solicitar al vendedor</InactiveButton>
+				<ActiveButton>Ver más productos</ActiveButton>
+			</StyledButtonContainer>
 		</CartContainer>
 	);
 }
