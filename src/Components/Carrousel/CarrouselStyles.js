@@ -1,8 +1,10 @@
 import styled from "styled-components";
 import { AiOutlineArrowRight, AiOutlineArrowLeft } from "react-icons/ai";
+import { wide900 } from "../../Themes/MediaQuery";
 
 export const CarrouselContainer = styled.section`
 	width: 100%;
+	max-width: 1100px;
 	margin: 20px 0px;
 	display: flex;
 	flex-direction: column;
@@ -23,6 +25,11 @@ export const TutorialContainer = styled.div`
 
 export const TutorialImage = styled.img`
 	width: 80%;
+	max-width: 880px;
+	${wide900} {
+		/* width: 515px;
+		height: 300px; */
+	}
 `;
 
 export const ArrowContainer = styled.div`
