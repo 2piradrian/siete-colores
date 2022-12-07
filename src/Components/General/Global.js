@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import { Link } from "react-router-dom";
-import { wide600, wide900 } from "../../Themes/MediaQuery";
+import { wide1100, wide600, wide900 } from "../../Themes/MediaQuery";
 
 export const StyledLink = styled(Link)`
 	color: ${(props) => props.theme.darkBrown};
@@ -10,6 +10,10 @@ export const StyledLink = styled(Link)`
 export const StyledMain = styled.main`
 	width: 100%;
 	height: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 `;
 
 export const ActiveButton = styled.button`
@@ -43,6 +47,9 @@ export const WspIso = styled.img`
 	height: auto;
 	cursor: pointer;
 	z-index: 3;
+	${wide1100} {
+		width: 75px;
+	}
 `;
 
 export const WspLink = styled(StyledLink)`

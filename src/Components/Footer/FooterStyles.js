@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import { RiMoneyDollarCircleLine } from "react-icons/ri";
 import { FaMoneyCheckAlt } from "react-icons/fa";
+import { wide600 } from "../../Themes/MediaQuery";
 export const FooterContainer = styled.footer`
 	width: 100%;
 	height: 100%;
@@ -39,7 +40,7 @@ export const Spikes = styled.div`
 
 export const InfoContainer = styled.div`
 	width: 100%;
-	padding: 80px 25px 25px 10px;
+	padding: 80px 25px 25px 25px;
 	display: flex;
 	align-items: center;
 	justify-content: space-evenly;
@@ -54,10 +55,16 @@ export const TitleContainer = styled.div`
 
 export const FooterTitles = styled.h4`
 	color: ${(props) => props.theme.white};
+	${wide600} {
+		font-size: 22px;
+	}
 `;
 
 export const FooterDescription = styled.p`
 	color: ${(props) => props.theme.white};
+	${wide600} {
+		font-size: 20px;
+	}
 `;
 
 export const FooterColumnDiv = styled.div`

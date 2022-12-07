@@ -3,6 +3,7 @@ import { wide1100, wide500, wide600, wide800 } from "../../Themes/MediaQuery";
 
 export const HeroContainer = styled.section`
 	width: 100%;
+	max-width: 1920px;
 	padding: 20px;
 	gap: 45px;
 	display: flex;

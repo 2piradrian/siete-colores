@@ -1,4 +1,5 @@
 import React from "react";
+import { GlobalSubtitles } from "../General/Global";
 import {
 	ContactContainer,
 	ContactForm,
@@ -12,7 +13,7 @@ function Contact() {
 	return (
 		<ContactContainer>
 			<ContactTitle>Contáctanos</ContactTitle>
-			<p>Dejanos un e-mail</p>
+			<GlobalSubtitles>Dejanos un e-mail</GlobalSubtitles>
 			<ContactForm>
 				<ContactInput type="text" placeholder="Nombre" />
 				<ContactInput type="text" placeholder="Asunto" />

@@ -7,7 +7,7 @@ export const GlobalStyle = createGlobalStyle`
         box-sizing: border-box;
         font-family: 'Urbanist', sans-serif;
     }
-    html, body{
+    html, body{       
         font-family: 'Urbanist', sans-serif;
     }
 `;

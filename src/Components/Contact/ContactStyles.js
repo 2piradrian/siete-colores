@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { wide1100 } from "../../Themes/MediaQuery";
 import { ActiveButton, Input } from "../General/Global";
 
 export const ContactContainer = styled.section`
@@ -14,6 +15,7 @@ export const ContactContainer = styled.section`
 
 export const ContactForm = styled.form`
 	width: 70%;
+	max-width: 700px;
 	gap: 20px;
 	margin: 40px 0px;
 	display: flex;
