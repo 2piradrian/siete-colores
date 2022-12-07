@@ -19,6 +19,7 @@ export const StyledMain = styled.main`
 export const ActiveButton = styled.button`
 	height: 60px;
 	width: 100%;
+	max-width: 1100px;
 	margin: 25px 0px;
 	font-weight: 400;
 	font-size: 30px;
@@ -32,6 +33,7 @@ export const ActiveButton = styled.button`
 export const InactiveButton = styled.button`
 	height: 60px;
 	width: 100%;
+	max-width: 1100px;
 	margin: 25px 0px;
 	font-weight: 400;
 	font-size: 30px;

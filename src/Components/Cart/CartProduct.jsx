@@ -10,6 +10,7 @@ import {
 	CartTextDivisor,
 	QuantityButton,
 	SmallCartDivisor,
+	Quantity,
 } from "./CartStyles";
 
 function CartProduct(props) {
@@ -38,7 +39,7 @@ function CartProduct(props) {
 				<CartItemPrice>${props.price}</CartItemPrice>
 				<CartButtonContainer>
 					<QuantityButton>-</QuantityButton>
-					<p>1</p>
+					<Quantity>1</Quantity>
 					<QuantityButton>+</QuantityButton>
 				</CartButtonContainer>
 			</SmallCartDivisor>

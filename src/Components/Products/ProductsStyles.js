@@ -13,6 +13,7 @@ export const ProductMain = styled.main`
 
 export const SearchForm = styled.form`
 	width: 70%;
+	max-width: 650px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;

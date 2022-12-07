@@ -13,7 +13,7 @@ function Nav() {
 		if (visualViewport.width >= 900) {
 			setDesk(true);
 		}
-	}, []);
+	}, [visualViewport.width]);
 
 	return (
 		<Navbar>

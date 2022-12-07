@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { wide1000, wide800 } from "../../Themes/MediaQuery";
 
 export const CartContainer = styled.div`
 	height: 100vh;
@@ -12,6 +13,7 @@ export const CartContainer = styled.div`
 
 export const CartH2 = styled.h2`
 	width: 100%;
+	max-width: 1100px;
 	font-size: 28px;
 	font-weight: 700;
 	text-align: start;
@@ -24,6 +26,7 @@ export const CartPrice = styled.p`
 
 export const CartProductContainer = styled.div`
 	width: 100%;
+	max-width: 1100px;
 	height: 45%;
 	margin: 10px 0px;
 	padding: 10px 2px;
@@ -39,6 +42,7 @@ export const CartProductContainer = styled.div`
 
 export const CartPriceContainer = styled.div`
 	width: 100%;
+	max-width: 1100px;
 	height: 40px;
 	margin: 20px 0px;
 	display: flex;
@@ -48,6 +52,7 @@ export const CartPriceContainer = styled.div`
 
 export const CartHr = styled.hr`
 	background: ${(props) => props.theme.lightBrown};
+	max-width: 1100px;
 	border: 0;
 	height: 2px;
 	font-weight: 100;
@@ -56,6 +61,7 @@ export const CartHr = styled.hr`
 
 export const CartProductBox = styled.div`
 	width: 100%;
+	max-width: 700px;
 	height: 70px;
 	display: flex;
 	justify-content: center;
@@ -88,6 +94,8 @@ export const SmallCartDivisor = styled.div`
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
+	${wide1000} {
+	}
 `;
 
 export const CartTextDivisor = styled.div`
@@ -118,6 +126,7 @@ export const CartItemPrice = styled.p`
 
 export const CartButtonContainer = styled.div`
 	width: 100%;
+	max-width: 210px;
 	height: auto;
 	display: flex;
 	align-items: center;
@@ -134,4 +143,14 @@ export const QuantityButton = styled.button`
 	border-radius: 5px;
 	font-weight: 800;
 	cursor: pointer;
+	${wide800} {
+		height: 35px;
+		width: 35px;
+	}
+`;
+
+export const Quantity = styled.p`
+	text-align: center;
+	font-weight: bold;
+	font-size: 18px;
 `;
