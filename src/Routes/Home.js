@@ -1,4 +1,5 @@
 import React from "react";
+import Carrousel from "../Components/Carrousel/Carrousel";
 import Contact from "../Components/Contact/Contact";
 import Footer from "../Components/Footer/Footer";
 import { StyledMain } from "../Components/General/Global";
@@ -14,6 +15,7 @@ function Home() {
 			<StyledMain>
 				<Hero />
 				<Popular />
+				<Carrousel />
 				<Contact />
 			</StyledMain>
 			<WhatsappIcon />
