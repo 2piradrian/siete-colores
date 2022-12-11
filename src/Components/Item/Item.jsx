@@ -11,7 +11,7 @@ import {
 
 function Item(props) {
 	return (
-		<ItemBox key={props.id}>
+		<ItemBox>
 			<ItemImg src={`./db/img/${props.id}.jpg`} alt={props.name} />
 			<ItemTitle>{props.name}</ItemTitle>
 			<ItemDesc>{props.type}</ItemDesc>

@@ -1,40 +1,29 @@
 import React from "react";
+import { useQuery } from "react-query";
+import { getProducts, prices } from "../../db/queries";
 import { GlobalSubtitles, ProductButton, StyledLink } from "../General/Global";
 import Item from "../Item/Item";
 import { ItemContainer, PopularContainer, PopularTitle } from "./PopularStyles";
 
 function Popular() {
-	const notFound =
-		"https://static.vecteezy.com/system/resources/previews/005/337/799/original/icon-image-not-found-free-vector.jpg";
+	const { data } = useQuery("products", getProducts, {
+		select: (data) => {
+			data = data?.filter((product) => product.popular);
+			data = data?.map((product) => ({
+				...product,
+				price: prices[product.price],
+			}));
+			return data;
+		},
+	});
 	return (
 		<PopularContainer>
 			<PopularTitle>Lo más destacado</PopularTitle>
 			<GlobalSubtitles>¿Qué es lo qué está de moda?</GlobalSubtitles>
 			<ItemContainer>
-				<Item
-					key="1"
-					img={notFound}
-					type="Topper"
-					title="Feliz Cumpleaños"
-					dim="20cm"
-					price={2700}
-				/>
-				<Item
-					key="2"
-					img={notFound}
-					type="Topper"
-					title="Feliz Cumpleaños"
-					dim="20cm"
-					price={2700}
-				/>
-				<Item
-					key="3"
-					img={notFound}
-					type="Topper"
-					title="Feliz Cumpleaños"
-					dim="20cm"
-					price={2700}
-				/>
+				{data?.map((product) => (
+					<Item {...product} key={product.id} />
+				))}
 			</ItemContainer>
 			<StyledLink to={"/products"}>
 				<ProductButton>Ver todos los productos</ProductButton>

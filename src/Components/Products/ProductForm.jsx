@@ -19,6 +19,7 @@ function ProductForm() {
 	const onSuccess = (data) => {
 		setProducts(data);
 	};
+
 	const { data } = useQuery("products", getProducts, {
 		onSuccess,
 		select: (data) =>

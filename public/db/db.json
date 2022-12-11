@@ -4,21 +4,24 @@
 		"name": "CARA TIGRE",
 		"tam-aprox": "80 mm x 70 mm",
 		"type": "Cortante y sellador",
-		"price": "PRECIO1"
+		"price": "PRECIO1",
+		"popular": "true"
 	},
 	{
 		"id": "A002",
 		"name": "CARA LEON",
 		"tam-aprox": "80 mm x 70 mm",
 		"type": "Cortante y sellador",
-		"price": "PRECIO1"
+		"price": "PRECIO1",
+		"popular": "true"
 	},
 	{
 		"id": "A003",
 		"name": "CARA MONO",
 		"tam-aprox": "87 mm x 57 mm",
 		"type": "Cortante y sellador",
-		"price": "PRECIO1"
+		"price": "PRECIO1",
+		"popular": "true"
 	},
 	{
 		"id": "A004",

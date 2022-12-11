@@ -11,7 +11,7 @@ function ProductsContainer() {
 	return (
 		<ListOfProducts>
 			{products?.map((product) => (
-				<Item {...product} />
+				<Item {...product} key={product.id} />
 			))}
 		</ListOfProducts>
 	);

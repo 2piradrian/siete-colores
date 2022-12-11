@@ -8,7 +8,6 @@ import {
 	ProductSection,
 	SearchTitle,
 } from "../Components/Products/ProductsStyles";
-import { ProductContext } from "../Context/Product";
 
 function Products() {
 	return (
@@ -18,12 +17,10 @@ function Products() {
 			<GlobalSubtitles>
 				Mirá todo lo que tenemos para ofrecerte
 			</GlobalSubtitles>
-			<ProductContext>
-				<ProductSection>
-					<ProductForm />
-					<ProductsContainer />
-				</ProductSection>
-			</ProductContext>
+			<ProductSection>
+				<ProductForm />
+				<ProductsContainer />
+			</ProductSection>
 		</ProductMain>
 	);
 }
