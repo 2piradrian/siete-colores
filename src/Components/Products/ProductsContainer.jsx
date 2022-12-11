@@ -1,4 +1,5 @@
 import React, { useContext } from "react";
+import { useState } from "react";
 import { useEffect } from "react";
 import { Product } from "../../Context/Product";
 import Item from "../Item/Item";
@@ -6,13 +7,41 @@ import { ListOfProducts } from "./ProductsStyles";
 
 function ProductsContainer() {
 	const { products } = useContext(Product);
-	useEffect(() => {}, [products]);
+	const [position, setPosition] = useState(0);
+	const [list, setList] = useState([]);
+
+	const onBottom = () => {
+		const { scrollTop, clientHeight, scrollHeight } =
+			document.documentElement;
+		const bottom = scrollTop + clientHeight >= scrollHeight - 1;
+		return bottom;
+	};
+
+	const handlePosition = () => {
+		if (onBottom() && position < products.length) {
+			setPosition(position + 1);
+			setList([...list, ...products[position]]);
+			console.log(list);
+		}
+	};
+
+	useEffect(() => {
+		setList(products[0]);
+		setPosition(position + 1);
+	}, [products]);
+
+	useEffect(() => {
+		window.addEventListener("scroll", handlePosition);
+
+		return () => {
+			window.removeEventListener("scroll", handlePosition);
+		};
+	}, [position]);
 
 	return (
 		<ListOfProducts>
-			{products?.map((product) => (
-				<Item {...product} key={product.id} />
-			))}
+			{onBottom() &&
+				list?.map((product) => <Item {...product} key={product.id} />)}
 		</ListOfProducts>
 	);
 }

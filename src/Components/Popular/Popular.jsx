@@ -1,20 +1,13 @@
 import React from "react";
 import { useQuery } from "react-query";
-import { getProducts, prices } from "../../db/queries";
+import { getPopulars, getProducts, prices, setPrices } from "../../db/queries";
 import { GlobalSubtitles, ProductButton, StyledLink } from "../General/Global";
 import Item from "../Item/Item";
 import { ItemContainer, PopularContainer, PopularTitle } from "./PopularStyles";
 
 function Popular() {
 	const { data } = useQuery("products", getProducts, {
-		select: (data) => {
-			data = data?.filter((product) => product.popular);
-			data = data?.map((product) => ({
-				...product,
-				price: prices[product.price],
-			}));
-			return data;
-		},
+		select: (data) => getPopulars(data),
 	});
 	return (
 		<PopularContainer>

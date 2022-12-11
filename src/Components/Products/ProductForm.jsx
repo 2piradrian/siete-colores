@@ -11,7 +11,7 @@ import { useContext } from "react";
 import { useQuery } from "react-query";
 import { Product } from "../../Context/Product";
 
-import { filterProducts, getProducts, prices } from "../../db/queries";
+import { filterProducts, getProducts, transformData } from "../../db/queries";
 
 function ProductForm() {
 	const { setProducts } = useContext(Product);
@@ -22,11 +22,7 @@ function ProductForm() {
 
 	const { data } = useQuery("products", getProducts, {
 		onSuccess,
-		select: (data) =>
-			data?.map((product) => ({
-				...product,
-				price: prices[product.price],
-			})),
+		select: (data) => transformData(data, 12),
 	});
 
 	const handleSubmit = (e) => {

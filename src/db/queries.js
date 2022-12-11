@@ -43,8 +43,28 @@ export const filterProducts = (data, filterData) => {
 	}
 	if (filterData.order !== "Ordenar por") {
 	}
-
-	console.log(data);
-	console.log(filterData);
 	return data;
+};
+
+export const setPrices = (data) => {
+	data = data?.map((product) => ({
+		...product,
+		price: prices[product.price],
+	}));
+	return data;
+};
+
+export const getPopulars = (data) => {
+	data = setPrices(data);
+	data = data?.filter((product) => product.popular);
+	return data;
+};
+
+export const transformData = (data, size) => {
+	data = setPrices(data);
+	let dividedProducts = [];
+	for (let i = 0; i < data.length; i += size) {
+		dividedProducts.push(data.slice(i, i + size));
+	}
+	return dividedProducts;
 };

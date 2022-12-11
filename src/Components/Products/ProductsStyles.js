@@ -77,4 +77,5 @@ export const ListOfProducts = styled.div`
 	flex-wrap: wrap;
 	justify-content: center;
 	align-items: center;
+	padding-bottom: 20px;
 `;
