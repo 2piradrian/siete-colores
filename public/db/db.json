@@ -1,12 +1,5 @@
 [
 	{
-		"id": "A000",
-		"name": "EJEMPLO",
-		"tam-aprox": "15cm x 15cm",
-		"type": "Cortante y sellador",
-		"price": "PRECIO1"
-	},
-	{
 		"id": "A001",
 		"name": "CARA TIGRE",
 		"tam-aprox": "80 mm x 70 mm",
@@ -1372,41 +1365,6 @@
 		"price": "PRECIO2"
 	},
 	{
-		"id": "A196",
-		"name": "FELIZ DIA PA",
-		"tam-aprox": "x",
-		"type": "Toppers",
-		"price": "x"
-	},
-	{
-		"id": "A197",
-		"name": "PA FELIZ DIA",
-		"tam-aprox": "x",
-		"type": "Toppers",
-		"price": "x"
-	},
-	{
-		"id": "A198",
-		"name": "EL MEJOR PAPA DEL MUNDO",
-		"tam-aprox": "x",
-		"type": "Toppers",
-		"price": "x"
-	},
-	{
-		"id": "A199",
-		"name": "FELIZ DIA PA GALERA",
-		"tam-aprox": "x",
-		"type": "Toppers",
-		"price": "x"
-	},
-	{
-		"id": "A200",
-		"name": "FLORK COMBINADO TORTA",
-		"tam-aprox": "x",
-		"type": "Toppers",
-		"price": "x"
-	},
-	{
 		"id": "A201",
 		"name": "CARA DE MUJER",
 		"tam-aprox": "170 mm x 120 mm",
@@ -1447,13 +1405,6 @@
 		"tam-aprox": "70 mm x 130 mm",
 		"type": "Toppers",
 		"price": "PRECIO1"
-	},
-	{
-		"id": "A207",
-		"name": "FORTNITE COMBINADO",
-		"tam-aprox": "x",
-		"type": "Toppers",
-		"price": "x"
 	},
 	{
 		"id": "A208",
@@ -1734,13 +1685,6 @@
 		"tam-aprox": "80 mm",
 		"type": "Cortante y sellador",
 		"price": "PRECIO1"
-	},
-	{
-		"id": "A248",
-		"name": "x",
-		"tam-aprox": "x",
-		"type": "x",
-		"price": "x"
 	},
 	{
 		"id": "A249",

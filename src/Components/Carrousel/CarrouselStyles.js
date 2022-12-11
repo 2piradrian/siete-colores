@@ -1,6 +1,5 @@
 import styled from "styled-components";
 import { AiOutlineArrowRight, AiOutlineArrowLeft } from "react-icons/ai";
-import { wide900 } from "../../Themes/MediaQuery";
 
 export const CarrouselContainer = styled.section`
 	width: 100%;
