@@ -1,0 +1,1878 @@
+[
+	{
+		"id": "A000",
+		"name": "EJEMPLO",
+		"tam-aprox": "15cm x 15cm",
+		"type": "Cortante y sellador",
+		"price": "PRECIO1"
+	},
+	{
+		"id": "A001",
+		"name": "CARA TIGRE",
+		"tam-aprox": "80 mm x 70 mm",
+		"type": "Cortante y sellador",
+		"price": "PRECIO1"
+	},
+	{
+		"id": "A002",
+		"name": "CARA LEON",
+		"tam-aprox": "80 mm x 70 mm",
+		"type": "Cortante y sellador",
+		"price": "PRECIO1"
+	},
+	{
+		"id": "A003",
+		"name": "CARA MONO",
+		"tam-aprox": "87 mm x 57 mm",
+		"type": "Cortante y sellador",
+		"price": "PRECIO1"
+	},
+	{
+		"id": "A004",
+		"name": "CARA LEOPARDO",
+		"tam-aprox": "80 mm x 70 mm",
+		"type": "Cortante y sellador",
+		"price": "PRECIO1"
+	},
+	{
+		"id": "A005",
+		"name": "OSO NORDICO HOJITAS",
+		"tam-aprox": "87 mm x 74 mm",
+		"type": "Cortante y sellador",
+		"price": "PRECIO1"
+	},
+	{
+		"id": "A006",
+		"name": "OSO NORDICO BUFANDA",
+		"tam-aprox": "87 mm x 74 mm",
+		"type": "Cortante y sellador",
+		"price": "PRECIO1"
+	},
+	{
+		"id": "A007",
+		"name": "OSO NORDICO SENTADO",
+		"tam-aprox": "87 mm x 74 mm",
+		"type": "Cortante y sellador",
+		"price": "PRECIO1"
+	},
+	{
+		"id": "A008",
+		"name": "OSO NORDICO PARADO",
+		"tam-aprox": "87 mm x 74 mm",
+		"type": "Cortante y sellador",
+		"price": "PRECIO1"
+	},
+	{
+		"id": "A009",
+		"name": "FLAMENCO",
+		"tam-aprox": "88 mm x 83 mm",
+		"type": "Cortante y sellador",
+		"price": "PRECIO2"
+	},
+	{
+		"id": "A010",
+		"name": "CARA KOALA",
+		"tam-aprox": "83 mm x 54 mm",
+		"type": "Cortante y sellador",
+		"price": "PRECIO1"
+	},
+	{
+		"id": "A011",
+		"name": "CARA ELEFANTE",
+		"tam-aprox": "84 mm x 50 mm",
+		"type": "Cortante y sellador",
+		"price": "PRECIO1"
+	},
+	{
+		"id": "A012",
+		"name": "CARA JIRAFA",
+		"tam-aprox": "83 mm x 67 mm",
+		"type": "Cortante y sellador",
+		"price": "PRECIO1"
+	},
+	{
+		"id": "A013",
+		"name": "OSO",
+		"tam-aprox": "98 mm x 82 mm",
+		"type": "Cortante y sellador",
+		"price": "PRECIO1"
+	},
+	{
+		"id": "A014",
+		"name": "LEON CUERPO ENTERO",
+		"tam-aprox": "88 mm x 92 mm",
+		"type": "Cortante y sellador",
+		"price": "PRECIO1"
+	},
+	{
+		"id": "A015",
+		"name": "MARIPOSA",
+		"tam-aprox": "90 mm x 110 mm",
+		"type": "Cortante y sellador",
+		"price": "PRECIO1"
+	},
+	{
+		"id": "A016",
+		"name": "SILUETA MARIPOSA ",
+		"tam-aprox": "90 mm x 120 mm",
+		"type": "Cortante ",
+		"price": "PRECIO2"
+	},
+	{
+		"id": "A017",
+		"name": "SILUETA MARIPOSA ",
+		"tam-aprox": "40 mm x 50 mm",
+		"type": "Cortante ",
+		"price": "PRECIO3"
+	},
+	{
+		"id": "A018",
+		"name": "MARIPOSA ",
+		"tam-aprox": "40 mm X 50 mm",
+		"type": "Cortante y sellador",
+		"price": "PRECIO4"
+	},
+	{
+		"id": "A019",
+		"name": "MAMADERA",
+		"tam-aprox": "86 mm X 45 mm",
+		"type": "Cortante y sellador",
+		"price": "PRECIO2"
+	},
+	{
+		"id": "A020",
+		"name": "COCHE",
+		"tam-aprox": "89 mm X 70 mm",
+		"type": "Cortante y sellador",
+		"price": "PRECIO1"
+	},
+	{
+		"id": "A021",
+		"name": "SONAJERO",
+		"tam-aprox": "89 mm X 60 mm",
+		"type": "Cortante y sellador",
+		"price": "PRECIO1"
+	},
+	{
+		"id": "A022",
+		"name": "ALFILER",
+		"tam-aprox": "87 mm x 65 mm",
+		"type": "Cortante y sellador",
+		"price": "PRECIO1"
+	},
+	{
+		"id": "A023",
+		"name": "BODY",
+		"tam-aprox": "88 mm x 85 mm",
+		"type": "Cortante y sellador",
+		"price": "PRECIO1"
+	},
+	{
+		"id": "A024",
+		"name": "ANGELITO",
+		"tam-aprox": "87 mm x 85 mm",
+		"type": "Cortante y sellador",
+		"price": "PRECIO1"
+	},
+	{
+		"id": "A025",
+		"name": "BABERO",
+		"tam-aprox": "88 mm x 87 mm",
+		"type": "Cortante y sellador",
+		"price": "PRECIO1"
+	},
+	{
+		"id": "A026",
+		"name": "GLOBO AEROSTATICO",
+		"tam-aprox": "85 mm x 67 mm",
+		"type": "Cortante y sellador",
+		"price": "PRECIO1"
+	},
+	{
+		"id": "A027",
+		"name": "ARCOIRIS NORDICO",
+		"tam-aprox": "63 mm x 73 mm",
+		"type": "Cortante y sellador",
+		"price": "PRECIO1"
+	},
+	{
+		"id": "A028",
+		"name": "NUBES X 2 UNIDADES",
+		"tam-aprox": "40 mm y 60 mm",
+		"type": "Cortante",
+		"price": "PRECIO2"
+	},
+	{
+		"id": "A029",
+		"name": "SILUETA PALOMA",
+		"tam-aprox": "84 mm x 80 mm",
+		"type": "Cortante",
+		"price": "PRECIO2"
+	},
+	{
+		"id": "A030",
+		"name": "PALOMA",
+		"tam-aprox": "70 mm x 90 mm",
+		"type": "Cortante y sellador",
+		"price": "PRECIO1"
+	},
+	{
+		"id": "A031",
+		"name": "CRUZ CON FLORES",
+		"tam-aprox": "100 mm x 96 mm",
+		"type": "Cortante y sellador",
+		"price": "PRECIO1"
+	},
+	{
+		"id": "A032",
+		"name": "CRUZ CON ROSAS",
+		"tam-aprox": "100 mm x 96 mm",
+		"type": "Cortante y sellador",
+		"price": "PRECIO1"
+	},
+	{
+		"id": "A033",
+		"name": "CRUZ ",
+		"tam-aprox": "80 mm ",
+		"type": "Cortante",
+		"price": "PRECIO3"
+	},
+	{
+		"id": "A034",
+		"name": "CRUZ ",
+		"tam-aprox": "100 mm ",
+		"type": "Cortante",
+		"price": "PRECIO2"
+	},
+	{
+		"id": "A035",
+		"name": "CRUZ ",
+		"tam-aprox": "80 mm",
+		"type": "Cortante",
+		"price": "PRECIO3"
+	},
+	{
+		"id": "A036",
+		"name": "CAMIONETA CON CORAZONES",
+		"tam-aprox": "96 mm x 87 mm",
+		"type": "Cortante y sellador",
+		"price": "PRECIO1"
+	},
+	{
+		"id": "A037",
+		"name": "OSO CON REGALO",
+		"tam-aprox": "90 mm x 80 mm",
+		"type": "Cortante y sellador",
+		"price": "PRECIO1"
+	},
+	{
+		"id": "A038",
+		"name": "MUJER LINEAL CAPELINA",
+		"tam-aprox": "80 mm x 94 mm",
+		"type": "Cortante y sellador",
+		"price": "PRECIO1"
+	},
+	{
+		"id": "A039",
+		"name": "CAMARA DE FOTOS",
+		"tam-aprox": "75 mm x 100 mm",
+		"type": "Cortante y sellador",
+		"price": "PRECIO1"
+	},
+	{
+		"id": "A040",
+		"name": "BICI",
+		"tam-aprox": "60 mm x 95 mm",
+		"type": "Cortante y sellador",
+		"price": "PRECIO1"
+	},
+	{
+		"id": "A041",
+		"name": "HEXAGONO FLOR",
+		"tam-aprox": "87 mm x 94 mm",
+		"type": "Cortante y sellador",
+		"price": "PRECIO1"
+	},
+	{
+		"id": "A042",
+		"name": "CIRCULO CON FLOR",
+		"tam-aprox": "87 mm x 90 mm",
+		"type": "Cortante y sellador",
+		"price": "PRECIO1"
+	},
+	{
+		"id": "A043",
+		"name": "CUADRADO CON FLOR",
+		"tam-aprox": "100 mm x 94 mm",
+		"type": "Cortante y sellador",
+		"price": "PRECIO1"
+	},
+	{
+		"id": "A044",
+		"name": "MARCO MUJER LINEAL",
+		"tam-aprox": "87 mm x 85 mm",
+		"type": "Cortante y sellador",
+		"price": "PRECIO1"
+	},
+	{
+		"id": "A045",
+		"name": "MARCO FLOR LINEAL",
+		"tam-aprox": "87 mm x 63 mm",
+		"type": "Cortante y sellador",
+		"price": "PRECIO1"
+	},
+	{
+		"id": "A046",
+		"name": "MARCO CARA LINEAL",
+		"tam-aprox": "88 mm x 70 mm",
+		"type": "Cortante y sellador",
+		"price": "PRECIO1"
+	},
+	{
+		"id": "A047",
+		"name": "SACAPUNTAS",
+		"tam-aprox": "87 mm x 68 mm",
+		"type": "Cortante y sellador",
+		"price": "PRECIO1"
+	},
+	{
+		"id": "A048",
+		"name": "TIJERAS",
+		"tam-aprox": "87 mm x 74 mm",
+		"type": "Cortante y sellador",
+		"price": "PRECIO1"
+	},
+	{
+		"id": "A049",
+		"name": "MANZANA",
+		"tam-aprox": "86 mm x 79 mm",
+		"type": "Cortante y sellador",
+		"price": "PRECIO1"
+	},
+	{
+		"id": "A050",
+		"name": "LAPIZ",
+		"tam-aprox": "86 mm x 62 mm",
+		"type": "Cortante y sellador",
+		"price": "PRECIO1"
+	},
+	{
+		"id": "A051",
+		"name": "CLIPS",
+		"tam-aprox": "87 mm x 55 mm",
+		"type": "Cortante y sellador",
+		"price": "PRECIO1"
+	},
+	{
+		"id": "A052",
+		"name": "DINO A",
+		"tam-aprox": "100mm x 66 mm",
+		"type": "Cortante y sellador",
+		"price": "PRECIO1"
+	},
+	{
+		"id": "A053",
+		"name": "DINO B",
+		"tam-aprox": "120mm x 97 mm",
+		"type": "Cortante y sellador",
+		"price": "PRECIO1"
+	},
+	{
+		"id": "A054",
+		"name": "CAMISA DOCTOR",
+		"tam-aprox": "85 mm x 67 mm",
+		"type": "Cortante y sellador",
+		"price": "PRECIO1"
+	},
+	{
+		"id": "A055",
+		"name": "CORAZON CON LATIDO",
+		"tam-aprox": "77 mm x 85 mm",
+		"type": "Cortante y sellador",
+		"price": "PRECIO1"
+	},
+	{
+		"id": "A056",
+		"name": "JERINGA",
+		"tam-aprox": "85 mm x 39 mm",
+		"type": "Cortante y sellador",
+		"price": "PRECIO2"
+	},
+	{
+		"id": "A057",
+		"name": "CURITAS",
+		"tam-aprox": "87 mm x 90 mm",
+		"type": "Cortante y sellador",
+		"price": "PRECIO1"
+	},
+	{
+		"id": "A058",
+		"name": "RIVER PLATE",
+		"tam-aprox": "88 mm x 73 mm",
+		"type": "Cortante y sellador",
+		"price": "PRECIO1"
+	},
+	{
+		"id": "A059",
+		"name": "TALLERES",
+		"tam-aprox": "85 mm x 93 mm",
+		"type": "Cortante y sellador",
+		"price": "PRECIO1"
+	},
+	{
+		"id": "A060",
+		"name": "BOCA JUNIORS",
+		"tam-aprox": "90 mm x 77 mm",
+		"type": "Cortante y sellador",
+		"price": "PRECIO1"
+	},
+	{
+		"id": "A061",
+		"name": "BELGRANO",
+		"tam-aprox": "86 mm x 86 mm",
+		"type": "Cortante y sellador",
+		"price": "PRECIO1"
+	},
+	{
+		"id": "A062",
+		"name": "FLORK SONRIENDO",
+		"tam-aprox": "86 mm x 78 mm",
+		"type": "Cortante y sellador",
+		"price": "PRECIO1"
+	},
+	{
+		"id": "A063",
+		"name": "FLOR CORAZON",
+		"tam-aprox": "86 mm x 78 mm",
+		"type": "Cortante y sellador",
+		"price": "PRECIO1"
+	},
+	{
+		"id": "A064",
+		"name": "FLORK PREOCUPADO",
+		"tam-aprox": "87 mm x 65 mm",
+		"type": "Cortante y sellador",
+		"price": "PRECIO1"
+	},
+	{
+		"id": "A065",
+		"name": "FLORK CARTEL",
+		"tam-aprox": "89 mm x 92 mm",
+		"type": "Cortante y sellador",
+		"price": "PRECIO1"
+	},
+	{
+		"id": "A066",
+		"name": "FLORK LENTES",
+		"tam-aprox": "85 mm x 76 mm",
+		"type": "Cortante y sellador",
+		"price": "PRECIO1"
+	},
+	{
+		"id": "A067",
+		"name": "FLORK GUIÑO",
+		"tam-aprox": "84 mm x 97 mm",
+		"type": "Cortante y sellador",
+		"price": "PRECIO1"
+	},
+	{
+		"id": "A068",
+		"name": "PETALOS",
+		"tam-aprox": "85 mm / 25 mm",
+		"type": "Cortante ",
+		"price": "PRECIO5"
+	},
+	{
+		"id": "A069",
+		"name": "CIRCULO CON ONDAS ",
+		"tam-aprox": "80 mm y 100 mm",
+		"type": "Cortante",
+		"price": "PRECIO2"
+	},
+	{
+		"id": "A070",
+		"name": "CUADRADO CON ONDAS ",
+		"tam-aprox": "80 mm y 100 mm",
+		"type": "Cortante",
+		"price": "PRECIO2"
+	},
+	{
+		"id": "A071",
+		"name": "RECTANGULO CON ONDAS ",
+		"tam-aprox": "80 mm y 100 mm",
+		"type": "Cortante",
+		"price": "PRECIO2"
+	},
+	{
+		"id": "A072",
+		"name": "ESTRELLA ARBOL",
+		"tam-aprox": "100mm / 20 mm",
+		"type": "Cortante",
+		"price": "PRECIO6"
+	},
+	{
+		"id": "A073",
+		"name": "REGLA CRUZ CALIZ",
+		"tam-aprox": "100 mm x 20 mm",
+		"type": "Cortante",
+		"price": "PRECIO1"
+	},
+	{
+		"id": "A074",
+		"name": "REGLITA X2 LUNA Y ESTRELLA / NUBE Y GOTAS",
+		"tam-aprox": "100 mm x 20 mm",
+		"type": "Cortante",
+		"price": "PRECIO1"
+	},
+	{
+		"id": "A075",
+		"name": "REGLAS CORAZON Y FLORES / MOÑO Y MICKEY",
+		"tam-aprox": "100 mm x 20 mm",
+		"type": "Cortante",
+		"price": "PRECIO1"
+	},
+	{
+		"id": "A076",
+		"name": "REGLAS MARIPOSA / NUBE",
+		"tam-aprox": "95 mm x 20 mm",
+		"type": "Cortante",
+		"price": "PRECIO1"
+	},
+	{
+		"id": "A077",
+		"name": "REGLA MUÑECO DE NIEVE / ESTRELLAS",
+		"tam-aprox": "95 mm x 20 mm",
+		"type": "Cortante",
+		"price": "PRECIO1"
+	},
+	{
+		"id": "A078",
+		"name": "REGLA ESTRELLA / FLORES",
+		"tam-aprox": "95 mm x 20 mm",
+		"type": "Cortante",
+		"price": "PRECIO1"
+	},
+	{
+		"id": "A079",
+		"name": "REGLA FANTASMA / CALABAZA",
+		"tam-aprox": "95 mm x 20 mm",
+		"type": "Cortante",
+		"price": "PRECIO1"
+	},
+	{
+		"id": "A080",
+		"name": "REGLA MURCIELAGO / GATO",
+		"tam-aprox": "95 mm x 20 mm",
+		"type": "Cortante",
+		"price": "PRECIO1"
+	},
+	{
+		"id": "A081",
+		"name": "GRANERO",
+		"tam-aprox": "83 mm x 94 mm",
+		"type": "Cortante y sellador",
+		"price": "PRECIO1"
+	},
+	{
+		"id": "A082",
+		"name": "RODAJA DE MADERA",
+		"tam-aprox": "88 mm x 88 mm",
+		"type": "Cortante y sellador",
+		"price": "PRECIO1"
+	},
+	{
+		"id": "A083",
+		"name": "CHANCHO",
+		"tam-aprox": "89 mm x 79 mm",
+		"type": "Cortante y sellador",
+		"price": "PRECIO1"
+	},
+	{
+		"id": "A084",
+		"name": "GALLINA",
+		"tam-aprox": "90 mm x 81 mm",
+		"type": "Cortante y sellador",
+		"price": "PRECIO2"
+	},
+	{
+		"id": "A085",
+		"name": "FANTASMA A",
+		"tam-aprox": "86 mm x 80 mm",
+		"type": "Cortante y sellador",
+		"price": "PRECIO1"
+	},
+	{
+		"id": "A086",
+		"name": "BRUJA",
+		"tam-aprox": "88mm x 55 mm",
+		"type": "Cortante y sellador",
+		"price": "PRECIO2"
+	},
+	{
+		"id": "A087",
+		"name": "SOMBRERO Y ESCOBA",
+		"tam-aprox": "95 mm x 86 mm",
+		"type": "Cortante y sellador",
+		"price": "PRECIO2"
+	},
+	{
+		"id": "A088",
+		"name": "CALABAZA",
+		"tam-aprox": "87 mm x 86 mm",
+		"type": "Cortante y sellador",
+		"price": "PRECIO1"
+	},
+	{
+		"id": "A089",
+		"name": "FRANKESTEIN",
+		"tam-aprox": "87 mm x 67 mm",
+		"type": "Cortante y sellador",
+		"price": "PRECIO1"
+	},
+	{
+		"id": "A090",
+		"name": "CASTILLO HALLOWEEN",
+		"tam-aprox": "87 mm x 94 mm",
+		"type": "Cortante y sellador",
+		"price": "PRECIO1"
+	},
+	{
+		"id": "A091",
+		"name": "FANTASMA B",
+		"tam-aprox": "97 mm x 92 mm",
+		"type": "Cortante y sellador",
+		"price": "PRECIO1"
+	},
+	{
+		"id": "A092",
+		"name": "FANTASMA C",
+		"tam-aprox": "89 mm x 60 mm",
+		"type": "Cortante y sellador",
+		"price": "PRECIO1"
+	},
+	{
+		"id": "A093",
+		"name": "MURCIELAGO",
+		"tam-aprox": "65 mm x 86 mm",
+		"type": "Cortante y sellador",
+		"price": "PRECIO2"
+	},
+	{
+		"id": "A094",
+		"name": "INICIALES",
+		"tam-aprox": "93 mm x 82 mm",
+		"type": "Cortante ",
+		"price": "PRECIO2"
+	},
+	{
+		"id": "A095",
+		"name": "NUEVE TRES CUARTOS",
+		"tam-aprox": "80mm x80 mm",
+		"type": "Cortante y sellador",
+		"price": "PRECIO1"
+	},
+	{
+		"id": "A096",
+		"name": "HARRY POTTER",
+		"tam-aprox": "85 mm x 103 mm",
+		"type": "Cortante y sellador",
+		"price": "PRECIO1"
+	},
+	{
+		"id": "A097",
+		"name": "SNITCH",
+		"tam-aprox": "89 mm x 80 mm",
+		"type": "Cortante y sellador",
+		"price": "PRECIO1"
+	},
+	{
+		"id": "A098",
+		"name": "SOMBRERO BRUJA",
+		"tam-aprox": "88 mm x 103 mm",
+		"type": "Cortante y sellador",
+		"price": "PRECIO1"
+	},
+	{
+		"id": "A099",
+		"name": "LOGO RELIQUIA DE LA MUERTE",
+		"tam-aprox": "85 mm x 96 mm",
+		"type": "Cortante y sellador",
+		"price": "PRECIO1"
+	},
+	{
+		"id": "A100",
+		"name": "VASO DE CERVEZA",
+		"tam-aprox": "86 mm x 62 mm",
+		"type": "Cortante y sellador",
+		"price": "PRECIO2"
+	},
+	{
+		"id": "A101",
+		"name": "ABC GLOBO MAYUSCULA",
+		"tam-aprox": "30 mm",
+		"type": "Abecedario",
+		"price": "PRECIO7"
+	},
+	{
+		"id": "A102",
+		"name": "ABC GLOBO MINUSCULA",
+		"tam-aprox": "30 mm",
+		"type": "Abecedario",
+		"price": "PRECIO7"
+	},
+	{
+		"id": "A103",
+		"name": "ABC GORDITO MAYUSCULA",
+		"tam-aprox": "30 mm",
+		"type": "Abecedario",
+		"price": "PRECIO7"
+	},
+	{
+		"id": "A104",
+		"name": "PALETA DE SOMBRAS / LABIAL",
+		"tam-aprox": "55 mm x 20 mm/66 mm x 55 mm",
+		"type": "Cortante y sellador",
+		"price": "PRECIO1"
+	},
+	{
+		"id": "A105",
+		"name": "SELLO DE OJOS / CORTANTE BOCA",
+		"tam-aprox": "40 mm x 50 mm/40 mm x 70 mm",
+		"type": "Cortante y sello",
+		"price": "PRECIO1"
+	},
+	{
+		"id": "A106",
+		"name": "ESMALTE DE UÑAS",
+		"tam-aprox": "87 mm x 43 mm",
+		"type": "Cortante y sellador",
+		"price": "PRECIO2"
+	},
+	{
+		"id": "A107",
+		"name": "PERFUMES",
+		"tam-aprox": "86 mm x 76 mm",
+		"type": "Cortante y sellador",
+		"price": "PRECIO1"
+	},
+	{
+		"id": "A108",
+		"name": "CABALLITO DE MAR",
+		"tam-aprox": "86 mm x 60 mm",
+		"type": "Cortante y sellador",
+		"price": "PRECIO1"
+	},
+	{
+		"id": "A109",
+		"name": "TIBURON",
+		"tam-aprox": "67 mm x 90 mm",
+		"type": "Cortante y sellador",
+		"price": "PRECIO1"
+	},
+	{
+		"id": "A110",
+		"name": "COLA SIRENA OLA",
+		"tam-aprox": "88 mm x 68 mm",
+		"type": "Cortante y sellador",
+		"price": "PRECIO1"
+	},
+	{
+		"id": "A111",
+		"name": "COLA SIRENA CARACOLES",
+		"tam-aprox": "87 mm x 60 mm",
+		"type": "Cortante y sellador",
+		"price": "PRECIO2"
+	},
+	{
+		"id": "A112",
+		"name": "PEZ",
+		"tam-aprox": "70 mm x 86 mm",
+		"type": "Cortante y sellador",
+		"price": "PRECIO1"
+	},
+	{
+		"id": "A113",
+		"name": "SIRENA",
+		"tam-aprox": "106 mm x 70 mm",
+		"type": "Cortante y sellador",
+		"price": "PRECIO1"
+	},
+	{
+		"id": "A114",
+		"name": "TORTUGA MARINA",
+		"tam-aprox": "60 mm x 87 mm",
+		"type": "Cortante y sellador",
+		"price": "PRECIO1"
+	},
+	{
+		"id": "A115",
+		"name": "MARCO A",
+		"tam-aprox": "63 mm x 94 mm",
+		"type": "Cortante y sellador",
+		"price": "PRECIO8"
+	},
+	{
+		"id": "A116",
+		"name": "CARA MICKEY",
+		"tam-aprox": "98 mm x 95 mm",
+		"type": "Cortante y sellador",
+		"price": "PRECIO1"
+	},
+	{
+		"id": "A117",
+		"name": "MANO DE MICKEY",
+		"tam-aprox": "84 mm x 86 mm",
+		"type": "Cortante y sellador",
+		"price": "PRECIO1"
+	},
+	{
+		"id": "A118",
+		"name": "PANTALON DE MICKEY",
+		"tam-aprox": "73 mm x 89 mm",
+		"type": "Cortante y sellador",
+		"price": "PRECIO1"
+	},
+	{
+		"id": "A119",
+		"name": "ZAPATO DE MICKEY",
+		"tam-aprox": "54 mm x 85 mm",
+		"type": "Cortante y sellador",
+		"price": "PRECIO2"
+	},
+	{
+		"id": "A120",
+		"name": "CARA DE MINIE",
+		"tam-aprox": "87 mm x 83 mm",
+		"type": "Cortante y sellador",
+		"price": "PRECIO1"
+	},
+	{
+		"id": "A121",
+		"name": "MINNIE",
+		"tam-aprox": "97 mm x 71 mm",
+		"type": "Cortante y sellador",
+		"price": "PRECIO1"
+	},
+	{
+		"id": "A122",
+		"name": "CHASE PAW PATROL",
+		"tam-aprox": "96 mm x 67 mm",
+		"type": "Cortante y sellador",
+		"price": "PRECIO1"
+	},
+	{
+		"id": "A123",
+		"name": "SKYE PAW PATROL",
+		"tam-aprox": "97 mm x 110 mm",
+		"type": "Cortante y sellador",
+		"price": "PRECIO1"
+	},
+	{
+		"id": "A124",
+		"name": "PAW PATROL",
+		"tam-aprox": "97 mm x 110 mm",
+		"type": "Cortante y sellador",
+		"price": "PRECIO1"
+	},
+	{
+		"id": "A125",
+		"name": "ROCKY PAW PATROL",
+		"tam-aprox": "98 mm x77 mm",
+		"type": "Cortante y sellador",
+		"price": "PRECIO1"
+	},
+	{
+		"id": "A126",
+		"name": "ZUMA PAW PATROL",
+		"tam-aprox": "99 mm x 70 mm",
+		"type": "Cortante y sellador",
+		"price": "PRECIO1"
+	},
+	{
+		"id": "A127",
+		"name": "MARSHAL PAW PATROL",
+		"tam-aprox": "99 mm x 70 mm",
+		"type": "Cortante y sellador",
+		"price": "PRECIO1"
+	},
+	{
+		"id": "A128",
+		"name": "RUBBLE PAW PATROL",
+		"tam-aprox": "98 mm x 73 mm",
+		"type": "Cortante y sellador",
+		"price": "PRECIO1"
+	},
+	{
+		"id": "A129",
+		"name": "PEPPA PIG",
+		"tam-aprox": "90 mm x 70 mm",
+		"type": "Cortante y sellador",
+		"price": "PRECIO1"
+	},
+	{
+		"id": "A130",
+		"name": "MAMA CERDITA",
+		"tam-aprox": "96 mm x 78 mm",
+		"type": "Cortante y sellador",
+		"price": "PRECIO1"
+	},
+	{
+		"id": "A131",
+		"name": "PAPA PIG",
+		"tam-aprox": "96 mm x 84 mm",
+		"type": "Cortante y sellador",
+		"price": "PRECIO1"
+	},
+	{
+		"id": "A132",
+		"name": "JORGE PEPPA PIG",
+		"tam-aprox": "75 mm x 67 mm",
+		"type": "Cortante y sellador",
+		"price": "PRECIO1"
+	},
+	{
+		"id": "A133",
+		"name": "JORGE PIG DINOSAURIO",
+		"tam-aprox": "72 mm x 106 mm",
+		"type": "Cortante y sellador",
+		"price": "PRECIO1"
+	},
+	{
+		"id": "A134",
+		"name": "PEPPA PIG HADA",
+		"tam-aprox": "92 mm x92 mm",
+		"type": "Cortante y sellador",
+		"price": "PRECIO1"
+	},
+	{
+		"id": "A135",
+		"name": "CARA PLINPLIN",
+		"tam-aprox": "86 mm x 77 mm",
+		"type": "Cortante y sellador",
+		"price": "PRECIO2"
+	},
+	{
+		"id": "A136",
+		"name": "STICH",
+		"tam-aprox": "100 mm x 85 mm",
+		"type": "Cortante y sellador",
+		"price": "PRECIO1"
+	},
+	{
+		"id": "A137",
+		"name": "ANGEL STICH ROSA",
+		"tam-aprox": "94 mm x 93 mm",
+		"type": "Cortante y sellador",
+		"price": "PRECIO1"
+	},
+	{
+		"id": "A138",
+		"name": "CIRCO",
+		"tam-aprox": "91 mm x 92 mm",
+		"type": "Cortante y sellador",
+		"price": "PRECIO1"
+	},
+	{
+		"id": "A139",
+		"name": "MUÑECO LEGO",
+		"tam-aprox": "88 mm x 60 mm",
+		"type": "Cortante y sellador",
+		"price": "PRECIO2"
+	},
+	{
+		"id": "A140",
+		"name": "OSTRA",
+		"tam-aprox": "87 mm x 97 mm",
+		"type": "Cortante y sellador",
+		"price": "PRECIO1"
+	},
+	{
+		"id": "A141",
+		"name": "BIBLIA",
+		"tam-aprox": "80 mm x 93 mm",
+		"type": "Cortante y sellador",
+		"price": "PRECIO1"
+	},
+	{
+		"id": "A142",
+		"name": "FLOR JAZMIN 2, 5 &amp; 8CM",
+		"tam-aprox": "80mm/50mm/20mm",
+		"type": "Cortante",
+		"price": "PRECIO2"
+	},
+	{
+		"id": "A143",
+		"name": "FLOR MARGARITA 2, 5 &amp; 8CM",
+		"tam-aprox": "80mm/50mm/20mm",
+		"type": "Cortante",
+		"price": "PRECIO2"
+	},
+	{
+		"id": "A144",
+		"name": "FLOR 2, 5 &amp; 8CM",
+		"tam-aprox": "80mm/50mm/20mm",
+		"type": "Cortante",
+		"price": "PRECIO2"
+	},
+	{
+		"id": "A145",
+		"name": "FLOR COMUN 2, 5 &amp; 8CM",
+		"tam-aprox": "80mm/50mm/20mm",
+		"type": "Cortante",
+		"price": "PRECIO2"
+	},
+	{
+		"id": "A146",
+		"name": "FLOR PEONIA",
+		"tam-aprox": "80mm/40mm",
+		"type": "Cortante",
+		"price": "PRECIO9"
+	},
+	{
+		"id": "A147",
+		"name": "CACTUS A",
+		"tam-aprox": "87 mm x 46 mm",
+		"type": "Cortante y sellador",
+		"price": "PRECIO2"
+	},
+	{
+		"id": "A148",
+		"name": "CACTUS B",
+		"tam-aprox": "87 mm x 49 mm",
+		"type": "Cortante y sellador",
+		"price": "PRECIO2"
+	},
+	{
+		"id": "A149",
+		"name": "CACTUS C",
+		"tam-aprox": "90 mm x 60 mm",
+		"type": "Cortante y sellador",
+		"price": "PRECIO2"
+	},
+	{
+		"id": "A150",
+		"name": "CACTUS D",
+		"tam-aprox": "86 mm x 54 mm",
+		"type": "Cortante y sellador",
+		"price": "PRECIO2"
+	},
+	{
+		"id": "A151",
+		"name": "PALMERA",
+		"tam-aprox": "87 mm x 52 mm",
+		"type": "Cortante y sellador",
+		"price": "PRECIO2"
+	},
+	{
+		"id": "A152",
+		"name": "CORAZON",
+		"tam-aprox": "86 mm x 93 mm",
+		"type": "Cortante y sellador",
+		"price": "PRECIO1"
+	},
+	{
+		"id": "A153",
+		"name": "PALETA",
+		"tam-aprox": "86 mm x 56 mm",
+		"type": "Cortante y sellador",
+		"price": "PRECIO1"
+	},
+	{
+		"id": "A154",
+		"name": "CARTEL DE MADERA",
+		"tam-aprox": "104 mm x 73 mm",
+		"type": "Cortante y sellador",
+		"price": "PRECIO2"
+	},
+	{
+		"id": "A155",
+		"name": "SOMBRERO",
+		"tam-aprox": "88 mmx 103 mm",
+		"type": "Cortante y sellador",
+		"price": "PRECIO1"
+	},
+	{
+		"id": "A156",
+		"name": "NUMEROS",
+		"tam-aprox": "10 mm",
+		"type": "Sello",
+		"price": "PRECIO2"
+	},
+	{
+		"id": "A157",
+		"name": "HOJITAS",
+		"tam-aprox": "30 mm",
+		"type": "Sello",
+		"price": "PRECIO8"
+	},
+	{
+		"id": "A158",
+		"name": "LOGO FLASH",
+		"tam-aprox": "84 mm x 77 mm",
+		"type": "Cortante y sellador",
+		"price": "PRECIO1"
+	},
+	{
+		"id": "A159",
+		"name": "LOGO MUJER MARAVILLA",
+		"tam-aprox": "43 mm x 94 mm",
+		"type": "Cortante y sellador",
+		"price": "PRECIO2"
+	},
+	{
+		"id": "A160",
+		"name": "LOGO BATMAN",
+		"tam-aprox": "57 mm x 88 mm",
+		"type": "Cortante y sellador",
+		"price": "PRECIO2"
+	},
+	{
+		"id": "A161",
+		"name": "CARA HOMBRE ARAÑA",
+		"tam-aprox": "85 mm x 65 mm",
+		"type": "Cortante y sellador",
+		"price": "PRECIO1"
+	},
+	{
+		"id": "A162",
+		"name": "TELA DE ARAÑA",
+		"tam-aprox": "88 mm x 88 mm",
+		"type": "Cortante y sellador",
+		"price": "PRECIO1"
+	},
+	{
+		"id": "A163",
+		"name": "PUÑO HULK",
+		"tam-aprox": "88 mm x 70 mm",
+		"type": "Cortante y sellador",
+		"price": "PRECIO1"
+	},
+	{
+		"id": "A164",
+		"name": "ONOMATOPEYA A",
+		"tam-aprox": "68 mm x 90 mm",
+		"type": "Cortante y sellador",
+		"price": "PRECIO1"
+	},
+	{
+		"id": "A165",
+		"name": "ONOMATOPEYA B",
+		"tam-aprox": "68 mm x 90 mm",
+		"type": "Cortante y sellador",
+		"price": "PRECIO1"
+	},
+	{
+		"id": "A166",
+		"name": "LOGO CAPITAN AMERICA",
+		"tam-aprox": "87 mm x 87 mm",
+		"type": "Cortante y sellador",
+		"price": "PRECIO1"
+	},
+	{
+		"id": "A167",
+		"name": "AUTO A",
+		"tam-aprox": "56 mm x 98 mm",
+		"type": "Cortante y sellador",
+		"price": "PRECIO1"
+	},
+	{
+		"id": "A168",
+		"name": "AUTO B",
+		"tam-aprox": "73 mm x 97 mm",
+		"type": "Cortante y sellador",
+		"price": "PRECIO1"
+	},
+	{
+		"id": "A169",
+		"name": "CAMION DE CARGA",
+		"tam-aprox": "76 mm x 97 mm",
+		"type": "Cortante y sellador",
+		"price": "PRECIO1"
+	},
+	{
+		"id": "A170",
+		"name": "COLECTIVO",
+		"tam-aprox": "84 mm x 99 mm",
+		"type": "Cortante y sellador",
+		"price": "PRECIO1"
+	},
+	{
+		"id": "A171",
+		"name": "AVION",
+		"tam-aprox": "59 mm x 96 mm",
+		"type": "Cortante y sellador",
+		"price": "PRECIO1"
+	},
+	{
+		"id": "A172",
+		"name": "HELICOPTERO",
+		"tam-aprox": "66 mm x 99 mm",
+		"type": "Cortante y sellador",
+		"price": "PRECIO1"
+	},
+	{
+		"id": "A173",
+		"name": "TREN",
+		"tam-aprox": "96 mm x 71 mm",
+		"type": "Cortante y sellador",
+		"price": "PRECIO1"
+	},
+	{
+		"id": "A174",
+		"name": "VELERO",
+		"tam-aprox": "99 mm x 79 mm",
+		"type": "Cortante y sellador",
+		"price": "PRECIO1"
+	},
+	{
+		"id": "A175",
+		"name": "SUBMARINO",
+		"tam-aprox": "88 mm x 95 mm",
+		"type": "Cortante y sellador",
+		"price": "PRECIO1"
+	},
+	{
+		"id": "A176",
+		"name": "CONO",
+		"tam-aprox": "87 mm x 71 mm",
+		"type": "Cortante y sellador",
+		"price": "PRECIO1"
+	},
+	{
+		"id": "A177",
+		"name": "TRACTOR",
+		"tam-aprox": "75 mm x 89 mm",
+		"type": "Cortante y sellador",
+		"price": "PRECIO1"
+	},
+	{
+		"id": "A178",
+		"name": "BOMBERO",
+		"tam-aprox": "91 mm x 89 mm",
+		"type": "Cortante y sellador",
+		"price": "PRECIO1"
+	},
+	{
+		"id": "A179",
+		"name": "ARCOIRIS",
+		"tam-aprox": "88 mm x 80 mm",
+		"type": "Cortante y sellador",
+		"price": "PRECIO2"
+	},
+	{
+		"id": "A180",
+		"name": "CARA UNICORNIO",
+		"tam-aprox": "98 mm x 83 mm",
+		"type": "Cortante y sellador",
+		"price": "PRECIO2"
+	},
+	{
+		"id": "A181",
+		"name": "MANO DE FATIMA",
+		"tam-aprox": "85 mm x 69 mm",
+		"type": "Cortante y sellador",
+		"price": "PRECIO2"
+	},
+	{
+		"id": "A182",
+		"name": "CORONA ",
+		"tam-aprox": "87 mm x 57 mm",
+		"type": "Cortante y sellador",
+		"price": "PRECIO2"
+	},
+	{
+		"id": "A183",
+		"name": "FELIZ CUMPLE",
+		"tam-aprox": "110 mm x 110 mm",
+		"type": "Toppers",
+		"price": "PRECIO1"
+	},
+	{
+		"id": "A184",
+		"name": "FELIZ CUMPLE CUADRADO",
+		"tam-aprox": "120 mm x 120 mm",
+		"type": "Toppers",
+		"price": "PRECIO1"
+	},
+	{
+		"id": "A185",
+		"name": "BAILARINA B",
+		"tam-aprox": "100 mm x 60 mm",
+		"type": "Toppers",
+		"price": "PRECIO2"
+	},
+	{
+		"id": "A186",
+		"name": "CRUZ PALOMA",
+		"tam-aprox": "130 mm x 10 mm",
+		"type": "Toppers",
+		"price": "PRECIO2"
+	},
+	{
+		"id": "A187",
+		"name": "MUJER",
+		"tam-aprox": "130 mm x 90 mm",
+		"type": "Toppers",
+		"price": "PRECIO1"
+	},
+	{
+		"id": "A188",
+		"name": "FELIZ DIA",
+		"tam-aprox": "100 mm x 130 mm",
+		"type": "Toppers",
+		"price": "PRECIO1"
+	},
+	{
+		"id": "A189",
+		"name": "MI PRIMERA COMUNION",
+		"tam-aprox": "100 mm x 100 mm",
+		"type": "Toppers",
+		"price": "PRECIO1"
+	},
+	{
+		"id": "A190",
+		"name": "MI BAUTIZO PALOMA",
+		"tam-aprox": "100 mm x 130 mm",
+		"type": "Toppers",
+		"price": "PRECIO1"
+	},
+	{
+		"id": "A191",
+		"name": "ZAPATO CALADO",
+		"tam-aprox": "230 mm x 140 mm",
+		"type": "Toppers",
+		"price": "PRECIO1"
+	},
+	{
+		"id": "A192",
+		"name": "UNICORNIO",
+		"tam-aprox": "110 mm x 120 mm",
+		"type": "Toppers",
+		"price": "PRECIO1"
+	},
+	{
+		"id": "A193",
+		"name": "BAILARINA A",
+		"tam-aprox": "100 mm x 80 mm",
+		"type": "Toppers",
+		"price": "PRECIO2"
+	},
+	{
+		"id": "A194",
+		"name": "ANGEL NENA",
+		"tam-aprox": "110 mm x 45 mm",
+		"type": "Toppers",
+		"price": "PRECIO2"
+	},
+	{
+		"id": "A195",
+		"name": "ANGEL NENE",
+		"tam-aprox": "110 mm x 45 mm",
+		"type": "Toppers",
+		"price": "PRECIO2"
+	},
+	{
+		"id": "A196",
+		"name": "FELIZ DIA PA",
+		"tam-aprox": "x",
+		"type": "Toppers",
+		"price": "x"
+	},
+	{
+		"id": "A197",
+		"name": "PA FELIZ DIA",
+		"tam-aprox": "x",
+		"type": "Toppers",
+		"price": "x"
+	},
+	{
+		"id": "A198",
+		"name": "EL MEJOR PAPA DEL MUNDO",
+		"tam-aprox": "x",
+		"type": "Toppers",
+		"price": "x"
+	},
+	{
+		"id": "A199",
+		"name": "FELIZ DIA PA GALERA",
+		"tam-aprox": "x",
+		"type": "Toppers",
+		"price": "x"
+	},
+	{
+		"id": "A200",
+		"name": "FLORK COMBINADO TORTA",
+		"tam-aprox": "x",
+		"type": "Toppers",
+		"price": "x"
+	},
+	{
+		"id": "A201",
+		"name": "CARA DE MUJER",
+		"tam-aprox": "170 mm x 120 mm",
+		"type": "Toppers",
+		"price": "PRECIO9"
+	},
+	{
+		"id": "A202",
+		"name": "MI CONFIRMACIÓN",
+		"tam-aprox": "55 mm x 140 mm",
+		"type": "Toppers",
+		"price": "PRECIO1"
+	},
+	{
+		"id": "A203",
+		"name": "MI COMUNION",
+		"tam-aprox": "70 mm x 130 mm",
+		"type": "Toppers",
+		"price": "PRECIO1"
+	},
+	{
+		"id": "A204",
+		"name": "FELIZ ANIVERSARIO",
+		"tam-aprox": "70 mm x 130 mm",
+		"type": "Toppers",
+		"price": "PRECIO1"
+	},
+	{
+		"id": "A205",
+		"name": "MIS 18",
+		"tam-aprox": "110 mm x 100 mm",
+		"type": "Toppers",
+		"price": "PRECIO1"
+	},
+	{
+		"id": "A206",
+		"name": "MI BAUTISMO",
+		"tam-aprox": "70 mm x 130 mm",
+		"type": "Toppers",
+		"price": "PRECIO1"
+	},
+	{
+		"id": "A207",
+		"name": "FORTNITE COMBINADO",
+		"tam-aprox": "x",
+		"type": "Toppers",
+		"price": "x"
+	},
+	{
+		"id": "A208",
+		"name": "BABY SHOWER CHUPETE",
+		"tam-aprox": "70 mm x 120 mm",
+		"type": "Toppers",
+		"price": "PRECIO1"
+	},
+	{
+		"id": "A209",
+		"name": "BABY SHOWER ALFILER",
+		"tam-aprox": "70 mm x 120 mm",
+		"type": "Toppers",
+		"price": "PRECIO1"
+	},
+	{
+		"id": "A210",
+		"name": "MIS 15 AÑOS MARIPOSA",
+		"tam-aprox": "80 mm x 110 mm",
+		"type": "Toppers",
+		"price": "PRECIO1"
+	},
+	{
+		"id": "A211",
+		"name": "MIS 15 CIRCULO CORAZONES",
+		"tam-aprox": "130 mm x 130 mm",
+		"type": "Toppers",
+		"price": "PRECIO1"
+	},
+	{
+		"id": "A212",
+		"name": "CORAZONES",
+		"tam-aprox": "100 mm x 100 mm",
+		"type": "Texturizadores",
+		"price": "PRECIO10"
+	},
+	{
+		"id": "A213",
+		"name": "CASITA DE PAJAROS",
+		"tam-aprox": "87 mm x 80 mm",
+		"type": "Cortante y sellador",
+		"price": "PRECIO1"
+	},
+	{
+		"id": "A214",
+		"name": "ONDAS CHICAS",
+		"tam-aprox": "200 mm x 70 mm",
+		"type": "Scraper",
+		"price": "PRECIO11"
+	},
+	{
+		"id": "A215",
+		"name": "MARCO B",
+		"tam-aprox": "70 mm x 80 mm",
+		"type": "Cortante",
+		"price": "PRECIO8"
+	},
+	{
+		"id": "A216",
+		"name": "MARCO C",
+		"tam-aprox": "84 mm x 84 mm",
+		"type": "Cortante",
+		"price": "PRECIO8"
+	},
+	{
+		"id": "A217",
+		"name": "MARCO D",
+		"tam-aprox": "59mm x 84 mm",
+		"type": "Cortante",
+		"price": "PRECIO8"
+	},
+	{
+		"id": "A218",
+		"name": "MARCO E",
+		"tam-aprox": "65 mm x 84 mm",
+		"type": "Cortante",
+		"price": "PRECIO8"
+	},
+	{
+		"id": "A219",
+		"name": "RENO",
+		"tam-aprox": "87 mm x 56 mm",
+		"type": "Cortante y sellador",
+		"price": "PRECIO1"
+	},
+	{
+		"id": "A220",
+		"name": "HOJA TROPICAL",
+		"tam-aprox": "83 mm x 55 mm",
+		"type": "Cortante",
+		"price": "PRECIO8"
+	},
+	{
+		"id": "A221",
+		"name": "HOJA TROPICAL B",
+		"tam-aprox": "83 mm x 81 mm",
+		"type": "Cortante",
+		"price": "PRECIO8"
+	},
+	{
+		"id": "A222",
+		"name": "CIRCULOS X10",
+		"tam-aprox": "100 mm/10 mm",
+		"type": "Cortante",
+		"price": "PRECIO10"
+	},
+	{
+		"id": "A223",
+		"name": "CUADRADOS X10",
+		"tam-aprox": "100 mm/10 mm",
+		"type": "Cortante",
+		"price": "PRECIO10"
+	},
+	{
+		"id": "A224",
+		"name": "TEXTURIZADOR MADERA",
+		"tam-aprox": "100 mm x 100 mm",
+		"type": "Texturizadores",
+		"price": "PRECIO10"
+	},
+	{
+		"id": "A225",
+		"name": "VACA",
+		"tam-aprox": "87 mm x 63 mm",
+		"type": "Cortante y sellador",
+		"price": "PRECIO1"
+	},
+	{
+		"id": "A226",
+		"name": "OVEJA",
+		"tam-aprox": "88 mm x 81 mm",
+		"type": "Cortante y sellador",
+		"price": "PRECIO1"
+	},
+	{
+		"id": "A227",
+		"name": "HOJITAS",
+		"tam-aprox": "100 mm x 100 mm",
+		"type": "Texturizadores",
+		"price": "PRECIO10"
+	},
+	{
+		"id": "A228",
+		"name": "MONO",
+		"tam-aprox": "75 mmx 79 mm",
+		"type": "Cortante y sellador",
+		"price": "PRECIO1"
+	},
+	{
+		"id": "A229",
+		"name": "ARABESCOS",
+		"tam-aprox": "100 mm x 100 mm",
+		"type": "Texturizadores",
+		"price": "PRECIO10"
+	},
+	{
+		"id": "A230",
+		"name": "PATITA DE PERRO ",
+		"tam-aprox": "92 mm x 100 mm",
+		"type": "Cortante y sellador",
+		"price": "PRECIO1"
+	},
+	{
+		"id": "A231",
+		"name": "JIRAFA ",
+		"tam-aprox": "94 mm x 67 mm",
+		"type": "Cortante y sellador",
+		"price": "PRECIO1"
+	},
+	{
+		"id": "A232",
+		"name": "TIGRE",
+		"tam-aprox": "94 mm x 70 mm",
+		"type": "Cortante y sellador",
+		"price": "PRECIO1"
+	},
+	{
+		"id": "A233",
+		"name": "ELEFANTE",
+		"tam-aprox": "89 mm x 77 mm",
+		"type": "Cortante y sellador",
+		"price": "PRECIO1"
+	},
+	{
+		"id": "A234",
+		"name": "HIPOPOTAMO",
+		"tam-aprox": "89 mm x 83 mm",
+		"type": "Cortante y sellador",
+		"price": "PRECIO1"
+	},
+	{
+		"id": "A235",
+		"name": "ESTRELLAS",
+		"tam-aprox": "100 mm x 100 mm",
+		"type": "Texturizadores",
+		"price": "PRECIO10"
+	},
+	{
+		"id": "A236",
+		"name": "LETRA PARA CURSIVA CON CUADRADO",
+		"tam-aprox": "15 mm",
+		"type": "Abecedario",
+		"price": "PRECIO11"
+	},
+	{
+		"id": "A237",
+		"name": "LETRA MAQUINA FINA (FICHAS Y REGLA) ",
+		"tam-aprox": "15 mm",
+		"type": "Abecedario",
+		"price": "PRECIO12"
+	},
+	{
+		"id": "A238",
+		"name": "JEEP",
+		"tam-aprox": "83 mm x 104 mm",
+		"type": "Cortante y sellador",
+		"price": "PRECIO1"
+	},
+	{
+		"id": "A239",
+		"name": "IRON MAN",
+		"tam-aprox": "85 mmx 63 mm",
+		"type": "Cortante y sellador",
+		"price": "PRECIO2"
+	},
+	{
+		"id": "A240",
+		"name": "HOJAS",
+		"tam-aprox": "100 mm x 100 mm",
+		"type": "Texturizadores",
+		"price": "PRECIO10"
+	},
+	{
+		"id": "A241",
+		"name": "ARABESCOS 2",
+		"tam-aprox": "100 mm x 100 mm",
+		"type": "Texturizadores",
+		"price": "PRECIO10"
+	},
+	{
+		"id": "A242",
+		"name": "SILUETA PALOMA B",
+		"tam-aprox": "83 mm x 72 mm",
+		"type": "Cortante",
+		"price": "PRECIO8"
+	},
+	{
+		"id": "A243",
+		"name": "ESCAMAS",
+		"tam-aprox": "100 mm x 100 mm",
+		"type": "Texturizadores",
+		"price": "PRECIO10"
+	},
+	{
+		"id": "A244",
+		"name": "CAMISETA DE FUTBOL",
+		"tam-aprox": "78 mm x 94 mm",
+		"type": "Cortante",
+		"price": "PRECIO10"
+	},
+	{
+		"id": "A245",
+		"name": "NUMEROS GRANDES",
+		"tam-aprox": "80 mm",
+		"type": "Abecedario",
+		"price": "PRECIO13"
+	},
+	{
+		"id": "A246",
+		"name": "BOTIN",
+		"tam-aprox": "52 mm x 85 mm",
+		"type": "Cortante y sellador",
+		"price": "PRECIO2"
+	},
+	{
+		"id": "A247",
+		"name": "PELOTA DE FUTBOL",
+		"tam-aprox": "80 mm",
+		"type": "Cortante y sellador",
+		"price": "PRECIO1"
+	},
+	{
+		"id": "A248",
+		"name": "x",
+		"tam-aprox": "x",
+		"type": "x",
+		"price": "x"
+	},
+	{
+		"id": "A249",
+		"name": "MOSAICO1",
+		"tam-aprox": "100 mm x 100 mm",
+		"type": "Mandalas",
+		"price": "PRECIO14"
+	},
+	{
+		"id": "A250",
+		"name": "MOSAICO2",
+		"tam-aprox": "101 mm x 100 mm",
+		"type": "Mandalas",
+		"price": "PRECIO14"
+	},
+	{
+		"id": "A251",
+		"name": "MOSAICO3",
+		"tam-aprox": "102 mm x 100 mm",
+		"type": "Mandalas",
+		"price": "PRECIO14"
+	},
+	{
+		"id": "A252",
+		"name": "MOSAICO4",
+		"tam-aprox": "103 mm x 100 mm",
+		"type": "Mandalas",
+		"price": "PRECIO14"
+	},
+	{
+		"id": "A253",
+		"name": "MOSAICO5",
+		"tam-aprox": "104 mm x 100 mm",
+		"type": "Mandalas",
+		"price": "PRECIO14"
+	},
+	{
+		"id": "A254",
+		"name": "MOSAICO6",
+		"tam-aprox": "105 mm x 100 mm",
+		"type": "Mandalas",
+		"price": "PRECIO14"
+	},
+	{
+		"id": "A255",
+		"name": "SELLO LETRA  (REGLA Y LETRA)",
+		"tam-aprox": "7 mm",
+		"type": "Abecedario",
+		"price": "PRECIO15"
+	},
+	{
+		"id": "A256",
+		"name": "SELLO LETRA INFORMAL  (PARA REGLA)",
+		"tam-aprox": "8 mm",
+		"type": "Abecedario",
+		"price": "PRECIO16"
+	},
+	{
+		"id": "A257",
+		"name": "SELLO LETRAS FORMAL (PARA REGLA)",
+		"tam-aprox": "8 mm",
+		"type": "Abecedario",
+		"price": "PRECIO16"
+	},
+	{
+		"id": "A258",
+		"name": "FLOR DE LOTO",
+		"tam-aprox": "89 mm x 92 mm",
+		"type": "Mandalas",
+		"price": "PRECIO2"
+	},
+	{
+		"id": "A259",
+		"name": "CARA DE RENO",
+		"tam-aprox": "86 mm x 64 mm",
+		"type": "Cortante y sellador",
+		"price": "PRECIO1"
+	},
+	{
+		"id": "A260",
+		"name": "CARA DE PAPA NOEL",
+		"tam-aprox": "89 mm x 61 mm",
+		"type": "Cortante y sellador",
+		"price": "PRECIO1"
+	},
+	{
+		"id": "A261",
+		"name": "MUÑECO DE NIEVE",
+		"tam-aprox": "89 mm x 62 mm",
+		"type": "Cortante y sellador",
+		"price": "PRECIO1"
+	},
+	{
+		"id": "A262",
+		"name": "DUENDE",
+		"tam-aprox": "89 mm x 62 mm",
+		"type": "Cortante y sellador",
+		"price": "PRECIO1"
+	},
+	{
+		"id": "A263",
+		"name": "GNOMO1",
+		"tam-aprox": "89 mm x 62 mm",
+		"type": "Cortante y sellador",
+		"price": "PRECIO1"
+	},
+	{
+		"id": "A264",
+		"name": "CIRCULO CON ONDAS",
+		"tam-aprox": "50 mm",
+		"type": "Cortante ",
+		"price": "PRECIO8"
+	},
+	{
+		"id": "A265",
+		"name": "ARBOL ",
+		"tam-aprox": "88 mm x 68 mm",
+		"type": "Cortante y sellador",
+		"price": "PRECIO1"
+	},
+	{
+		"id": "A266",
+		"name": "ABC ",
+		"tam-aprox": "80 mm",
+		"type": "Abecedario",
+		"price": "PRECIO17"
+	},
+	{
+		"id": "A267",
+		"name": "ELEFANTE BEBE",
+		"tam-aprox": "66 mm x 88 mm",
+		"type": "Cortante y sellador",
+		"price": "PRECIO1"
+	}
+]
