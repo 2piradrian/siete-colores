@@ -26,10 +26,6 @@ export const TutorialContainer = styled.div`
 export const TutorialImage = styled.img`
 	width: 80%;
 	max-width: 880px;
-	${wide900} {
-		/* width: 515px;
-		height: 300px; */
-	}
 `;
 
 export const ArrowContainer = styled.div`
