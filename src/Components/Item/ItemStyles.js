@@ -21,7 +21,8 @@ export const ItemImg = styled.img`
 
 export const ItemTitle = styled.span`
 	width: 100%;
-	font-size: 32px;
+	margin-top: 2px;
+	font-size: 28px;
 	font-weight: 600;
 `;
 

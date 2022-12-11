@@ -11,9 +11,9 @@ import {
 
 function Item(props) {
 	return (
-		<ItemBox>
-			<ItemImg src={props.img} />
-			<ItemTitle>Oso</ItemTitle>
+		<ItemBox key={props.id}>
+			<ItemImg src={`./db/img/${props.id}.jpg`} alt={props.name} />
+			<ItemTitle>{props.name}</ItemTitle>
 			<ItemDesc>{props.type}</ItemDesc>
 			<SubContainer>
 				<ItemPrice>{`$${props.price}`}</ItemPrice>

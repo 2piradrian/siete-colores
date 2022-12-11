@@ -1,9 +1,11 @@
 import React from "react";
+import { GlobalSubtitles } from "../Components/General/Global";
 import Nav from "../Components/Nav/Nav";
 import ProductForm from "../Components/Products/ProductForm";
 import ProductsContainer from "../Components/Products/ProductsContainer";
 import {
 	ProductMain,
+	ProductSection,
 	SearchTitle,
 } from "../Components/Products/ProductsStyles";
 import { ProductContext } from "../Context/Product";
@@ -13,10 +15,14 @@ function Products() {
 		<ProductMain>
 			<Nav />
 			<SearchTitle>Productos</SearchTitle>
-			<p>Mirá todo lo que tenemos para ofrecerte</p>
+			<GlobalSubtitles>
+				Mirá todo lo que tenemos para ofrecerte
+			</GlobalSubtitles>
 			<ProductContext>
-				<ProductForm />
-				<ProductsContainer></ProductsContainer>
+				<ProductSection>
+					<ProductForm />
+					<ProductsContainer />
+				</ProductSection>
 			</ProductContext>
 		</ProductMain>
 	);

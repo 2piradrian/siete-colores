@@ -8,6 +8,20 @@ export const ProductMain = styled.main`
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
+
+	& > p {
+		font-size: 16px;
+		padding: 15px;
+	}
+`;
+
+export const ProductSection = styled.section`
+	width: 100%;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
 	gap: 20px;
 `;
 
@@ -54,4 +68,13 @@ export const Filter = styled(ActiveButton)`
 	font-size: 18px;
 	height: 40px;
 	width: 200px;
+`;
+
+export const ListOfProducts = styled.div`
+	width: 100%;
+	padding: 20px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
 `;

@@ -1,17 +1,19 @@
 import React, { useContext } from "react";
 import { useEffect } from "react";
 import { Product } from "../../Context/Product";
+import Item from "../Item/Item";
+import { ListOfProducts } from "./ProductsStyles";
 
 function ProductsContainer() {
 	const { products } = useContext(Product);
 	useEffect(() => {}, [products]);
 
 	return (
-		<div>
+		<ListOfProducts>
 			{products?.map((product) => (
-				<p key={product.id}>{product.name}</p>
+				<Item {...product} />
 			))}
-		</div>
+		</ListOfProducts>
 	);
 }
 
