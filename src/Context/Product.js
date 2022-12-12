@@ -13,7 +13,8 @@ export const ProductContext = ({ children }) => {
 	const [cartList, setCartList] = useState(cart);
 
 	const updateCart = (cartItem) => {
-		setCartList(cartItem);
+		setCartList([...cartList, cartItem]);
+		saveLocalStorage([...cartList, cartItem]);
 	};
 
 	return (

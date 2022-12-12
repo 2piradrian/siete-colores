@@ -30,7 +30,7 @@ export const ItemContainer = styled.div`
 	padding: 30px 10px;
 	margin: 40px 0px;
 	display: flex;
-	justify-content: start; // Esto va a dar problemas en viewports mas grandes, en responsive ponerlo en center
+	justify-content: start;
 	align-items: center;
 	overflow-x: scroll;
 	box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
