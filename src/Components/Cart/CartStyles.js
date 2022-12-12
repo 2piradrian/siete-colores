@@ -163,4 +163,8 @@ export const StyledButtonContainer = styled.div`
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+
+	& > a {
+		width: 100%;
+	}
 `;

@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import { Product } from "../../Context/Product";
-import { ActiveButton, InactiveButton } from "../General/Global";
+import { ActiveButton, InactiveButton, StyledLink } from "../General/Global";
 import CartProduct from "./CartProduct";
 import {
 	CartContainer,
@@ -14,6 +14,11 @@ import {
 
 function CartContent() {
 	const { cartList } = useContext(Product);
+
+	const subtotal = cartList?.reduce(
+		(acc, cur) => acc + Number(cur.price) * Number(cur.quantity),
+		0
+	);
 	return (
 		<CartContainer>
 			<CartH2>Tus productos</CartH2>
@@ -25,21 +30,23 @@ function CartContent() {
 			</CartProductContainer>
 			<CartPriceContainer>
 				<CartH2>Subtotal:</CartH2>
-				<CartPrice>$2700</CartPrice>
+				<CartPrice>${subtotal}</CartPrice>
 			</CartPriceContainer>
 			<CartPriceContainer>
 				<CartH2>Envio:</CartH2>
-				<CartPrice>$860</CartPrice>
+				<CartPrice>${860}</CartPrice>
 			</CartPriceContainer>
 			<CartHr />
 			<CartPriceContainer>
 				<CartH2>Total:</CartH2>
-				<CartPrice>$3560</CartPrice>
+				<CartPrice>${subtotal + 860}</CartPrice>
 			</CartPriceContainer>
 			<StyledButtonContainer>
 				{cartList.length > 0 && <ActiveButton>Solicitar al vendedor</ActiveButton>}
 				{cartList.length <= 0 && <InactiveButton>Solicitar al vendedor</InactiveButton>}
-				<ActiveButton>Ver más productos</ActiveButton>
+				<StyledLink to="/products">
+					<ActiveButton>Ver más productos</ActiveButton>
+				</StyledLink>
 			</StyledButtonContainer>
 		</CartContainer>
 	);
