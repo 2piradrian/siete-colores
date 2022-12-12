@@ -27,7 +27,7 @@ export const CartPrice = styled.p`
 export const CartProductContainer = styled.div`
 	width: 100%;
 	max-width: 1100px;
-	height: 45%;
+	height: 50%;
 	margin: 10px 0px;
 	padding: 10px 2px;
 	border-top: 1px solid black;
@@ -35,7 +35,7 @@ export const CartProductContainer = styled.div`
 	gap: 15px;
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
+	justify-content: start;
 	align-items: center;
 	overflow-y: scroll;
 `;
@@ -43,7 +43,7 @@ export const CartProductContainer = styled.div`
 export const CartPriceContainer = styled.div`
 	width: 100%;
 	max-width: 1100px;
-	height: 40px;
+	height: 20px;
 	margin: 20px 0px;
 	display: flex;
 	justify-content: space-between;
