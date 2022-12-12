@@ -14,7 +14,7 @@ function ProductsContainer() {
 	const onBottom = () => {
 		const { scrollTop, clientHeight, scrollHeight } =
 			document.documentElement;
-		const bottom = scrollTop + clientHeight >= scrollHeight - 100;
+		const bottom = scrollTop + clientHeight >= scrollHeight - 175;
 		return bottom;
 	};
 
