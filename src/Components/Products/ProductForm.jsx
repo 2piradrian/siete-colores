@@ -22,10 +22,11 @@ function ProductForm() {
 	const { setProducts } = useContext(Product);
 
 	const onSuccess = (data) => {
-		setProducts(transformData(data, 12, true));
+		setProducts(transformData(data, 6));
 	};
 
 	const { data } = useQuery("products", getProducts, {
+		select: (data) => setPrices(data),
 		onSuccess,
 	});
 
@@ -33,8 +34,8 @@ function ProductForm() {
 		e.preventDefault();
 		const formData = new FormData(e.target);
 		const productData = Object.fromEntries(formData);
-		const newData = filterProducts(setPrices(data), productData);
-		setProducts(transformData(newData, 12));
+		const newData = filterProducts(data, productData);
+		setProducts(transformData(newData, 6));
 	};
 
 	return (
@@ -42,7 +43,6 @@ function ProductForm() {
 			<Input type="text" placeholder="Buscar" name="name" />
 			<SelectorContainer>
 				<Selector name="type">
-					<Option>Categorias</Option>
 					<Option>Todos</Option>
 					<Option>Cortante</Option>
 					<Option>Cortante y sellador</Option>

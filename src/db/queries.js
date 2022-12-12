@@ -26,6 +26,7 @@ const productsAPI = axios.create({
 
 export const getProducts = async () => {
 	const res = await productsAPI.get("");
+	console.log("refetch", res);
 	return res.data;
 };
 
@@ -80,14 +81,10 @@ export const getPopulars = (data) => {
 	return data;
 };
 
-export const transformData = (data, size, prices = false) => {
-	if (prices) {
-		data = setPrices(data);
-	}
+export const transformData = (data, size) => {
 	let dividedProducts = [];
 	for (let i = 0; i < data.length; i += size) {
 		dividedProducts.push(data.slice(i, i + size));
 	}
-	console.log(dividedProducts);
 	return dividedProducts;
 };

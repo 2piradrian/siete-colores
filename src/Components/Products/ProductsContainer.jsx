@@ -7,6 +7,7 @@ import { ListOfProducts } from "./ProductsStyles";
 
 function ProductsContainer() {
 	const { products } = useContext(Product);
+
 	const [position, setPosition] = useState(0);
 	const [list, setList] = useState([]);
 
@@ -18,29 +19,30 @@ function ProductsContainer() {
 	};
 
 	const handlePosition = () => {
-		if (onBottom() && position < products.length) {
+		if (onBottom() && position < products.length - 1) {
+			setList(list.concat(...products[position + 1]));
 			setPosition(position + 1);
-			setList([...list, ...products[position]]);
 		}
 	};
 
 	useEffect(() => {
 		setList(products[0]);
-		setPosition(position + 1);
+		setPosition(0);
 	}, [products]);
 
 	useEffect(() => {
+		console.log("actualizacion de scroll", products);
 		window.addEventListener("scroll", handlePosition);
-
 		return () => {
 			window.removeEventListener("scroll", handlePosition);
 		};
-	}, [position]);
+	});
 
 	return (
 		<ListOfProducts>
-			{onBottom() &&
-				list?.map((product) => <Item {...product} key={product.id} />)}
+			{list?.map((product) => (
+				<Item {...product} key={product.id} />
+			))}
 		</ListOfProducts>
 	);
 }
