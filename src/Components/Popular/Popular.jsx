@@ -6,8 +6,12 @@ import Item from "../Item/Item";
 import { ItemContainer, PopularContainer, PopularTitle } from "./PopularStyles";
 
 function Popular() {
+	const onSuccess = (data) => {
+		setProducts(transformData(data, 6));
+	};
 	const { data } = useQuery("products", getProducts, {
-		select: (data) => getPopulars(data),
+		select: (data) => getPopulars(setPrices(data)),
+		onSuccess,
 	});
 	return (
 		<PopularContainer>

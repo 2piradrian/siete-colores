@@ -37,8 +37,7 @@ export const filterProducts = (data, filterData) => {
 	}
 	if (filterData.type !== "Categorias" && filterData.type !== "Todos") {
 		data = data.filter(
-			(product) =>
-				product.type.toLowerCase() === filterData.type.toLowerCase()
+			(product) => product.type.toLowerCase() === filterData.type.toLowerCase()
 		);
 	}
 	if (filterData.order === "Menor Precio") {
@@ -75,7 +74,6 @@ export const setPrices = (data) => {
 };
 
 export const getPopulars = (data) => {
-	data = setPrices(data);
 	data = data?.filter((product) => product.popular);
 	return data;
 };

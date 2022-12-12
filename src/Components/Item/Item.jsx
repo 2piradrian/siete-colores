@@ -18,8 +18,6 @@ function Item(props) {
 
 	const [modal, setModal] = useState(false);
 
-	console.log(props);
-
 	const handleAdd = () => {
 		setModal(true);
 		setTimeout(() => {
@@ -29,9 +27,6 @@ function Item(props) {
 			return;
 		}
 		const item = products.flat(1).filter((product) => product.id === props.id);
-		console.log(products.flat(1));
-		console.log(products);
-		console.log(item);
 		updateCart(item[0]);
 	};
 
