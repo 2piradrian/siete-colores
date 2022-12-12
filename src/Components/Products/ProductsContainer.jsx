@@ -14,13 +14,11 @@ function ProductsContainer() {
 	const onBottom = () => {
 		const { scrollTop, clientHeight, scrollHeight } =
 			document.documentElement;
-		const bottom = scrollTop + clientHeight >= scrollHeight - 1.5;
+		const bottom = scrollTop + clientHeight >= scrollHeight - 100;
 		return bottom;
 	};
 
 	const handlePosition = () => {
-		console.log("scrolling");
-		console.log(onBottom());
 		if (onBottom() && position < products.length - 1) {
 			setList(list.concat(...products[position + 1]));
 			setPosition(position + 1);
