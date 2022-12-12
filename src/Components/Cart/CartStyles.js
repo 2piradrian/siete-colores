@@ -166,5 +166,8 @@ export const StyledButtonContainer = styled.div`
 
 	& > a {
 		width: 100%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
 	}
 `;
