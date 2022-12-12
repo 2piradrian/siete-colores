@@ -63,7 +63,6 @@ export const filterProducts = (data, filterData) => {
 			return 0;
 		});
 	}
-	console.log(data);
 	return data;
 };
 
@@ -89,5 +88,6 @@ export const transformData = (data, size, prices = false) => {
 	for (let i = 0; i < data.length; i += size) {
 		dividedProducts.push(data.slice(i, i + size));
 	}
+	console.log(dividedProducts);
 	return dividedProducts;
 };
