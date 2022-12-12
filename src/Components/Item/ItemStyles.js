@@ -22,13 +22,25 @@ export const ItemImg = styled.img`
 export const ItemTitle = styled.span`
 	width: 100%;
 	margin-top: 2px;
-	font-size: 28px;
+	font-size: 26px;
 	font-weight: 600;
+`;
+export const DescBox = styled.div`
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 `;
 
 export const ItemDesc = styled.p`
 	width: 100%;
-	font-size: 20px;
+	font-size: 18px;
+	&.size {
+		text-align: end;
+	}
+	&.type {
+		text-align: start;
+	}
 `;
 
 export const SubContainer = styled.div`
