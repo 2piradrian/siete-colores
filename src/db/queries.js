@@ -41,8 +41,29 @@ export const filterProducts = (data, filterData) => {
 				product.type.toLowerCase() === filterData.type.toLowerCase()
 		);
 	}
-	if (filterData.order !== "Ordenar por") {
+	if (filterData.order === "Menor Precio") {
+		data = data.sort((a, b) => {
+			if (a.price > b.price) {
+				return 1;
+			}
+			if (a.price < b.price) {
+				return -1;
+			}
+			return 0;
+		});
 	}
+	if (filterData.order === "Mayor Precio") {
+		data = data.sort((b, a) => {
+			if (a.price > b.price) {
+				return 1;
+			}
+			if (a.price < b.price) {
+				return -1;
+			}
+			return 0;
+		});
+	}
+	console.log(data);
 	return data;
 };
 
@@ -60,8 +81,10 @@ export const getPopulars = (data) => {
 	return data;
 };
 
-export const transformData = (data, size) => {
-	data = setPrices(data);
+export const transformData = (data, size, prices = false) => {
+	if (prices) {
+		data = setPrices(data);
+	}
 	let dividedProducts = [];
 	for (let i = 0; i < data.length; i += size) {
 		dividedProducts.push(data.slice(i, i + size));

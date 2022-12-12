@@ -21,7 +21,6 @@ function ProductsContainer() {
 		if (onBottom() && position < products.length) {
 			setPosition(position + 1);
 			setList([...list, ...products[position]]);
-			console.log(list);
 		}
 	};
 

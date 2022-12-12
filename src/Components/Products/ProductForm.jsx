@@ -11,25 +11,30 @@ import { useContext } from "react";
 import { useQuery } from "react-query";
 import { Product } from "../../Context/Product";
 
-import { filterProducts, getProducts, transformData } from "../../db/queries";
+import {
+	filterProducts,
+	getProducts,
+	setPrices,
+	transformData,
+} from "../../db/queries";
 
 function ProductForm() {
 	const { setProducts } = useContext(Product);
 
 	const onSuccess = (data) => {
-		setProducts(data);
+		setProducts(transformData(data, 12, true));
 	};
 
 	const { data } = useQuery("products", getProducts, {
 		onSuccess,
-		select: (data) => transformData(data, 12),
 	});
 
 	const handleSubmit = (e) => {
 		e.preventDefault();
 		const formData = new FormData(e.target);
 		const productData = Object.fromEntries(formData);
-		setProducts(filterProducts(data, productData));
+		const newData = filterProducts(setPrices(data), productData);
+		setProducts(transformData(newData, 12));
 	};
 
 	return (
