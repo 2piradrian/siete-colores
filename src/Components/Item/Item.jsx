@@ -11,7 +11,7 @@ import {
 } from "./ItemStyles";
 
 function Item(props) {
-	console.log(props);
+	const handleAdd = () => {};
 	return (
 		<ItemBox>
 			<ItemImg src={`./db/img/${props.id}.jpg`} alt={props.name} />
@@ -22,7 +22,7 @@ function Item(props) {
 			</DescBox>
 			<SubContainer>
 				<ItemPrice>{`$${props.price}`}</ItemPrice>
-				<AddButton>Agregar</AddButton>
+				<AddButton onClick={() => handleAdd()}>Agregar</AddButton>
 			</SubContainer>
 		</ItemBox>
 	);
