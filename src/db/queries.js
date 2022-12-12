@@ -26,7 +26,6 @@ const productsAPI = axios.create({
 
 export const getProducts = async () => {
 	const res = await productsAPI.get("");
-	console.log("refetch", res);
 	return res.data;
 };
 

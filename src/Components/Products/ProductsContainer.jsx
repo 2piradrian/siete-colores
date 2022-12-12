@@ -31,7 +31,6 @@ function ProductsContainer() {
 	}, [products]);
 
 	useEffect(() => {
-		console.log("actualizacion de scroll", products);
 		window.addEventListener("scroll", handlePosition);
 		return () => {
 			window.removeEventListener("scroll", handlePosition);
