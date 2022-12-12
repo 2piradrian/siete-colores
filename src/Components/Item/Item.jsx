@@ -31,7 +31,7 @@ function Item(props) {
 	};
 
 	const imgDefault =
-		"https://www.google.com/url?sa=i&url=https%3A%2F%2Fwellesleysocietyofartists.org%2Fimage-not-found%2F&psig=AOvVaw0q7qs02ecpAISvGDtHdXUH&ust=1670964468125000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCKja-fv59PsCFQAAAAAdAAAAABAE";
+		"https://static.vecteezy.com/system/resources/previews/005/337/799/original/icon-image-not-found-free-vector.jpg";
 	return (
 		<ItemBox>
 			<ItemImg src={`./db/img/${props.id}.jpg` || imgDefault} alt={props.name} />

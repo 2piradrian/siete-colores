@@ -70,6 +70,8 @@ export const CartProductBox = styled.div`
 
 export const CartProductImg = styled.img`
 	height: 100%;
+	width: 80px;
+	object-fit: cover;
 	border-radius: 10px;
 `;
 

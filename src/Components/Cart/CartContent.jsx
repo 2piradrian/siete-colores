@@ -1,4 +1,5 @@
-import React from "react";
+import React, { useContext } from "react";
+import { Product } from "../../Context/Product";
 import { ActiveButton, InactiveButton } from "../General/Global";
 import CartProduct from "./CartProduct";
 import {
@@ -12,20 +13,15 @@ import {
 } from "./CartStyles";
 
 function CartContent() {
-	const notFound =
-		"https://static.vecteezy.com/system/resources/previews/005/337/799/original/icon-image-not-found-free-vector.jpg";
+	const { cartList } = useContext(Product);
 	return (
 		<CartContainer>
 			<CartH2>Tus productos</CartH2>
 			<CartProductContainer>
-				{/* Vaya. Tu carrito está vacío */}
-				<CartProduct
-					key="1"
-					img={notFound}
-					type="Topper"
-					title="Feliz Cumpleaños"
-					price={2700}
-				/>
+				{cartList.length <= 0 && <p>Vaya. Tu carrito está vacío</p>}
+				{cartList?.map((product) => (
+					<CartProduct {...product} key={product.id} />
+				))}
 			</CartProductContainer>
 			<CartPriceContainer>
 				<CartH2>Subtotal:</CartH2>
@@ -41,8 +37,8 @@ function CartContent() {
 				<CartPrice>$3560</CartPrice>
 			</CartPriceContainer>
 			<StyledButtonContainer>
-				{false && <ActiveButton>Solicitar al vendedor</ActiveButton>}
-				<InactiveButton>Solicitar al vendedor</InactiveButton>
+				{cartList.length > 0 && <ActiveButton>Solicitar al vendedor</ActiveButton>}
+				{cartList.length <= 0 && <InactiveButton>Solicitar al vendedor</InactiveButton>}
 				<ActiveButton>Ver más productos</ActiveButton>
 			</StyledButtonContainer>
 		</CartContainer>
