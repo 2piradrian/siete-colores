@@ -1,22 +1,11 @@
 import React from "react";
 import { Input } from "../General/Global";
-import {
-	Filter,
-	Option,
-	SearchForm,
-	Selector,
-	SelectorContainer,
-} from "./ProductsStyles";
+import { Filter, Option, SearchForm, Selector, SelectorContainer } from "./ProductsStyles";
 import { useContext } from "react";
 import { useQuery } from "react-query";
 import { Product } from "../../Context/Product";
 
-import {
-	filterProducts,
-	getProducts,
-	setPrices,
-	transformData,
-} from "../../db/queries";
+import { filterProducts, getProducts, setPrices, transformData } from "../../db/queries";
 
 function ProductForm() {
 	const { setProducts } = useContext(Product);
@@ -44,14 +33,14 @@ function ProductForm() {
 			<SelectorContainer>
 				<Selector name="type">
 					<Option>Todos</Option>
+					<Option>Abecedario</Option>
 					<Option>Cortante</Option>
 					<Option>Cortante y sellador</Option>
-					<Option>Scrapper</Option>
+					<Option>Mandalas</Option>
+					<Option>Scraper</Option>
 					<Option>Sello</Option>
-					<Option>Rodillo</Option>
 					<Option>Texturizador</Option>
 					<Option>Toppers</Option>
-					<Option>Abecedario</Option>
 				</Selector>
 				<Selector name="order">
 					<Option>Ordenar por</Option>
