@@ -26,7 +26,6 @@ function Item(props) {
 		if (cartList.some((cart) => cart.id === props.id)) {
 			return;
 		}
-		console.log(products);
 		const item = products.flat(1).filter((product) => product.id === props.id);
 		updateCart(item[0]);
 	};
