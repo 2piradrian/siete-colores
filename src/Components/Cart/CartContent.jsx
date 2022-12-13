@@ -19,6 +19,21 @@ function CartContent() {
 		(acc, cur) => acc + Number(cur.price) * Number(cur.quantity),
 		0
 	);
+
+	const buyText = () => {
+		return;
+	};
+
+	const buyIt = () => {
+		const text = `Hola, me gustaría consultar por los siguientes articulos\n${cartList
+			?.map((products) => {
+				return `${products.name} (${products.id}) x(${products.quantity}u.)\n`;
+			})
+			.join("")}
+		`;
+		return encodeURI(text);
+	};
+
 	return (
 		<CartContainer>
 			<CartH2>Tus productos</CartH2>
@@ -42,7 +57,14 @@ function CartContent() {
 				<CartPrice>${subtotal + 860}</CartPrice>
 			</CartPriceContainer>
 			<StyledButtonContainer>
-				{cartList.length > 0 && <ActiveButton>Solicitar al vendedor</ActiveButton>}
+				{cartList.length > 0 && (
+					<a
+						href={`https://api.whatsapp.com/send?phone=543512742036&text=${buyIt()}`}
+						target="_blank"
+					>
+						<ActiveButton>Solicitar al vendedor</ActiveButton>
+					</a>
+				)}
 				{cartList.length <= 0 && <InactiveButton>Solicitar al vendedor</InactiveButton>}
 				<StyledLink to="/products">
 					<ActiveButton>Ver más productos</ActiveButton>

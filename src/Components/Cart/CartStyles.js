@@ -134,6 +134,7 @@ export const CartItemPrice = styled.p`
 	margin: 5px;
 	text-align: center;
 	${wide900} {
+		width: 100px;
 		margin: 0px 0px 0px 5px;
 		font-size: 24px;
 	}
@@ -209,5 +210,6 @@ export const StyledButtonContainer = styled.div`
 		display: flex;
 		justify-content: center;
 		align-items: center;
+		text-decoration: none;
 	}
 `;

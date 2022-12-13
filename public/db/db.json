@@ -24,13 +24,6 @@
 		"popular": "true"
 	},
 	{
-		"id": "A004",
-		"name": "CARA LEOPARDO",
-		"tam-aprox": "80 mm x 70 mm",
-		"type": "Cortante y sellador",
-		"price": "PRECIO1"
-	},
-	{
 		"id": "A005",
 		"name": "OSO NORDICO HOJITAS",
 		"tam-aprox": "87 mm x 74 mm",
@@ -64,20 +57,6 @@
 		"tam-aprox": "88 mm x 83 mm",
 		"type": "Cortante y sellador",
 		"price": "PRECIO2"
-	},
-	{
-		"id": "A010",
-		"name": "CARA KOALA",
-		"tam-aprox": "83 mm x 54 mm",
-		"type": "Cortante y sellador",
-		"price": "PRECIO1"
-	},
-	{
-		"id": "A011",
-		"name": "CARA ELEFANTE",
-		"tam-aprox": "84 mm x 50 mm",
-		"type": "Cortante y sellador",
-		"price": "PRECIO1"
 	},
 	{
 		"id": "A012",
@@ -181,13 +160,6 @@
 		"id": "A026",
 		"name": "GLOBO AEROSTATICO",
 		"tam-aprox": "85 mm x 67 mm",
-		"type": "Cortante y sellador",
-		"price": "PRECIO1"
-	},
-	{
-		"id": "A027",
-		"name": "ARCOIRIS NORDICO",
-		"tam-aprox": "63 mm x 73 mm",
 		"type": "Cortante y sellador",
 		"price": "PRECIO1"
 	},
@@ -328,13 +300,6 @@
 		"id": "A047",
 		"name": "SACAPUNTAS",
 		"tam-aprox": "87 mm x 68 mm",
-		"type": "Cortante y sellador",
-		"price": "PRECIO1"
-	},
-	{
-		"id": "A048",
-		"name": "TIJERAS",
-		"tam-aprox": "87 mm x 74 mm",
 		"type": "Cortante y sellador",
 		"price": "PRECIO1"
 	},
@@ -913,13 +878,6 @@
 		"price": "PRECIO1"
 	},
 	{
-		"id": "A131",
-		"name": "PAPA PIG",
-		"tam-aprox": "96 mm x 84 mm",
-		"type": "Cortante y sellador",
-		"price": "PRECIO1"
-	},
-	{
 		"id": "A132",
 		"name": "JORGE PEPPA PIG",
 		"tam-aprox": "75 mm x 67 mm",
@@ -948,13 +906,6 @@
 		"price": "PRECIO2"
 	},
 	{
-		"id": "A136",
-		"name": "STICH",
-		"tam-aprox": "100 mm x 85 mm",
-		"type": "Cortante y sellador",
-		"price": "PRECIO1"
-	},
-	{
 		"id": "A137",
 		"name": "ANGEL STICH ROSA",
 		"tam-aprox": "94 mm x 93 mm",
@@ -976,13 +927,6 @@
 		"price": "PRECIO2"
 	},
 	{
-		"id": "A140",
-		"name": "OSTRA",
-		"tam-aprox": "87 mm x 97 mm",
-		"type": "Cortante y sellador",
-		"price": "PRECIO1"
-	},
-	{
 		"id": "A141",
 		"name": "BIBLIA",
 		"tam-aprox": "80 mm x 93 mm",
@@ -990,29 +934,15 @@
 		"price": "PRECIO1"
 	},
 	{
-		"id": "A142",
-		"name": "FLOR JAZMIN 2, 5 &amp; 8CM",
-		"tam-aprox": "80mm/50mm/20mm",
-		"type": "Cortante",
-		"price": "PRECIO2"
-	},
-	{
-		"id": "A143",
-		"name": "FLOR MARGARITA 2, 5 &amp; 8CM",
-		"tam-aprox": "80mm/50mm/20mm",
-		"type": "Cortante",
-		"price": "PRECIO2"
-	},
-	{
 		"id": "A144",
-		"name": "FLOR 2, 5 &amp; 8CM",
+		"name": "FLOR",
 		"tam-aprox": "80mm/50mm/20mm",
 		"type": "Cortante",
 		"price": "PRECIO2"
 	},
 	{
 		"id": "A145",
-		"name": "FLOR COMUN 2, 5 &amp; 8CM",
+		"name": "FLOR COMUN",
 		"tam-aprox": "80mm/50mm/20mm",
 		"type": "Cortante",
 		"price": "PRECIO2"
@@ -1086,13 +1016,6 @@
 		"tam-aprox": "88 mmx 103 mm",
 		"type": "Cortante y sellador",
 		"price": "PRECIO1"
-	},
-	{
-		"id": "A156",
-		"name": "NUMEROS",
-		"tam-aprox": "10 mm",
-		"type": "Sello",
-		"price": "PRECIO2"
 	},
 	{
 		"id": "A157",
@@ -1368,13 +1291,6 @@
 		"price": "PRECIO2"
 	},
 	{
-		"id": "A201",
-		"name": "CARA DE MUJER",
-		"tam-aprox": "170 mm x 120 mm",
-		"type": "Toppers",
-		"price": "PRECIO9"
-	},
-	{
 		"id": "A202",
 		"name": "MI CONFIRMACIÓN",
 		"tam-aprox": "55 mm x 140 mm",
@@ -1452,13 +1368,6 @@
 		"price": "PRECIO1"
 	},
 	{
-		"id": "A214",
-		"name": "ONDAS CHICAS",
-		"tam-aprox": "200 mm x 70 mm",
-		"type": "Scraper",
-		"price": "PRECIO11"
-	},
-	{
 		"id": "A215",
 		"name": "MARCO B",
 		"tam-aprox": "70 mm x 80 mm",
@@ -1485,13 +1394,6 @@
 		"tam-aprox": "65 mm x 84 mm",
 		"type": "Cortante",
 		"price": "PRECIO8"
-	},
-	{
-		"id": "A219",
-		"name": "RENO",
-		"tam-aprox": "87 mm x 56 mm",
-		"type": "Cortante y sellador",
-		"price": "PRECIO1"
 	},
 	{
 		"id": "A220",
@@ -1683,13 +1585,6 @@
 		"price": "PRECIO2"
 	},
 	{
-		"id": "A247",
-		"name": "PELOTA DE FUTBOL",
-		"tam-aprox": "80 mm",
-		"type": "Cortante y sellador",
-		"price": "PRECIO1"
-	},
-	{
 		"id": "A249",
 		"name": "MOSAICO1",
 		"tam-aprox": "100 mm x 100 mm",
@@ -1760,66 +1655,10 @@
 		"price": "PRECIO2"
 	},
 	{
-		"id": "A259",
-		"name": "CARA DE RENO",
-		"tam-aprox": "86 mm x 64 mm",
-		"type": "Cortante y sellador",
-		"price": "PRECIO1"
-	},
-	{
-		"id": "A260",
-		"name": "CARA DE PAPA NOEL",
-		"tam-aprox": "89 mm x 61 mm",
-		"type": "Cortante y sellador",
-		"price": "PRECIO1"
-	},
-	{
-		"id": "A261",
-		"name": "MUÑECO DE NIEVE",
-		"tam-aprox": "89 mm x 62 mm",
-		"type": "Cortante y sellador",
-		"price": "PRECIO1"
-	},
-	{
-		"id": "A262",
-		"name": "DUENDE",
-		"tam-aprox": "89 mm x 62 mm",
-		"type": "Cortante y sellador",
-		"price": "PRECIO1"
-	},
-	{
-		"id": "A263",
-		"name": "GNOMO1",
-		"tam-aprox": "89 mm x 62 mm",
-		"type": "Cortante y sellador",
-		"price": "PRECIO1"
-	},
-	{
 		"id": "A264",
 		"name": "CIRCULO CON ONDAS",
 		"tam-aprox": "50 mm",
 		"type": "Cortante ",
 		"price": "PRECIO8"
-	},
-	{
-		"id": "A265",
-		"name": "ARBOL ",
-		"tam-aprox": "88 mm x 68 mm",
-		"type": "Cortante y sellador",
-		"price": "PRECIO1"
-	},
-	{
-		"id": "A266",
-		"name": "ABC ",
-		"tam-aprox": "80 mm",
-		"type": "Abecedario",
-		"price": "PRECIO17"
-	},
-	{
-		"id": "A267",
-		"name": "ELEFANTE BEBE",
-		"tam-aprox": "66 mm x 88 mm",
-		"type": "Cortante y sellador",
-		"price": "PRECIO1"
 	}
 ]
