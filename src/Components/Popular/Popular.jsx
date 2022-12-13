@@ -7,7 +7,7 @@ import { ItemContainer, PopularContainer, PopularTitle } from "./PopularStyles";
 
 function Popular() {
 	const { data } = useQuery("products", getProducts, {
-		select: (data) => getPopulars(setPrices(data)),
+		select: (data) => getPopulars(data),
 	});
 	return (
 		<PopularContainer>

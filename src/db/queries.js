@@ -74,6 +74,7 @@ export const setPrices = (data) => {
 };
 
 export const getPopulars = (data) => {
+	data = setPrices(data);
 	data = data?.filter((product) => product.popular);
 	return data;
 };
