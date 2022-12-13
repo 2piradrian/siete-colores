@@ -14,7 +14,7 @@ import {
 } from "./ItemStyles";
 
 function Item(props) {
-	const { products, cartList, updateCart } = useContext(Product);
+	const { populars, products, cartList, updateCart } = useContext(Product);
 
 	const [modal, setModal] = useState(false);
 
@@ -26,7 +26,9 @@ function Item(props) {
 		if (cartList.some((cart) => cart.id === props.id)) {
 			return;
 		}
-		const item = products.flat(1).filter((product) => product.id === props.id);
+		const item = props.popular
+			? populars.flat(1).filter((product) => product.id === props.id)
+			: products.flat(1).filter((product) => product.id === props.id);
 		updateCart(item[0]);
 	};
 

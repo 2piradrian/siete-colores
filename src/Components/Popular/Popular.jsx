@@ -9,12 +9,20 @@ import { ItemContainer, PopularContainer, PopularTitle } from "./PopularStyles";
 
 function Popular() {
 	const { populars, setPopulars } = useContext(Product);
-	const { data } = useQuery("popular", getProducts, {
+	const { data, refetch } = useQuery("popular", getProducts, {
 		select: (data) => getPopulars(data),
-		onSuccess: () => setPopulars(data),
+		onSuccess: () => {
+			if (data === undefined) {
+				refetch();
+				return;
+			}
+			setPopulars(data);
+		},
+		onError: () => console.log(data),
 	});
+
 	return (
-		<PopularContainer>
+		<PopularContainer id="popular">
 			<PopularTitle>Lo más destacado</PopularTitle>
 			<GlobalSubtitles>¿Qué es lo qué está de moda?</GlobalSubtitles>
 			<ItemContainer>

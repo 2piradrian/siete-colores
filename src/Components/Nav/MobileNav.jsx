@@ -15,10 +15,10 @@ function MobileNav() {
 					<StyledLink to={"/products"}>Productos</StyledLink>
 				</MobileNavLi>
 				<MobileNavLi>
-					<StyledLink to={"#popular"}>Destacados</StyledLink>
+					<a href="/#popular">Destacados</a>
 				</MobileNavLi>
 				<MobileNavLi>
-					<StyledLink to={"#contact"}>Contacto</StyledLink>
+					<a href="/#contact">Contacto</a>
 				</MobileNavLi>
 			</MobileNavUl>
 		</MobileNavContainer>

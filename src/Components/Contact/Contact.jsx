@@ -11,7 +11,7 @@ import {
 
 function Contact() {
 	return (
-		<ContactContainer>
+		<ContactContainer id="contact">
 			<ContactTitle>Contáctanos</ContactTitle>
 			<GlobalSubtitles>Dejanos un e-mail</GlobalSubtitles>
 			<ContactForm>
