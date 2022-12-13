@@ -6,7 +6,13 @@ import Home from "./Routes/Home";
 import Products from "./Routes/Products";
 
 function App() {
-	const queryClient = new QueryClient();
+	const queryClient = new QueryClient({
+		defaultOptions: {
+			queries: {
+				refetchOnWindowFocus: false,
+			},
+		},
+	});
 	return (
 		<QueryClientProvider client={queryClient}>
 			<ProductContext>

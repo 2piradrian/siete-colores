@@ -8,7 +8,7 @@ import Item from "../Item/Item";
 import { ItemContainer, PopularContainer, PopularTitle } from "./PopularStyles";
 
 function Popular() {
-	const { setProducts, products } = useContext(Product);
+	const { setProducts } = useContext(Product);
 	const { data } = useQuery("popular", getProducts, {
 		select: (data) => getPopulars(data),
 		onSuccess: () => setProducts(data),

@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { wide1000, wide800 } from "../../Themes/MediaQuery";
+import { wide1000, wide800, wide900 } from "../../Themes/MediaQuery";
 
 export const CartContainer = styled.div`
 	height: 100vh;
@@ -66,6 +66,9 @@ export const CartProductBox = styled.div`
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	${wide900} {
+		justify-content: space-evenly;
+	}
 `;
 
 export const CartProductImg = styled.img`
@@ -79,12 +82,10 @@ export const BigCartDivisor = styled.div`
 	height: 100%;
 	width: 60%;
 	display: flex;
-
-	&::after {
-		height: 100%;
-		width: 1%;
-		border-right: 1px solid ${(props) => props.theme.lightBrown};
-		content: "";
+	border-right: 1px solid ${(props) => props.theme.lightBrown};
+	${wide900} {
+		border-right: 0px solid ${(props) => props.theme.lightBrown};
+		width: auto;
 	}
 `;
 
@@ -96,7 +97,11 @@ export const SmallCartDivisor = styled.div`
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	${wide1000} {
+	${wide900} {
+		margin-left: 0px;
+		width: 318px;
+		justify-content: space-evenly;
+		flex-direction: row-reverse;
 	}
 `;
 
@@ -107,6 +112,9 @@ export const CartTextDivisor = styled.div`
 	flex-direction: column;
 	justify-content: center;
 	align-items: flex-start;
+	${wide900} {
+		width: 300px;
+	}
 `;
 
 export const CartItemTitle = styled.h3`
@@ -124,16 +132,48 @@ export const CartItemPrice = styled.p`
 	font-size: 20px;
 	font-weight: 600;
 	margin: 5px;
+	text-align: center;
+	${wide900} {
+		margin: 0px 0px 0px 5px;
+		font-size: 24px;
+	}
 `;
 
 export const CartButtonContainer = styled.div`
 	width: 100%;
-	max-width: 210px;
 	height: auto;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
 	padding: 5px;
+	${wide900} {
+		height: 100%;
+		width: 210px;
+		padding: 0px;
+		&::after {
+			content: "";
+			height: 100%;
+			width: 1px;
+			border-right: 1px solid ${(props) => props.theme.lightBrown};
+		}
+		&::before {
+			content: "";
+			height: 100%;
+			width: 1px;
+			border-left: 1px solid ${(props) => props.theme.lightBrown};
+		}
+	}
+`;
+
+export const ButtonBox = styled.div`
+	width: 100%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	${wide900} {
+		width: 210px;
+	}
 `;
 
 export const QuantityButton = styled.button`

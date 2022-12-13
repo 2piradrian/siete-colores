@@ -13,6 +13,7 @@ import {
 	QuantityButton,
 	SmallCartDivisor,
 	Quantity,
+	ButtonBox,
 } from "./CartStyles";
 
 function CartProduct(props) {
@@ -52,11 +53,13 @@ function CartProduct(props) {
 			</BigCartDivisor>
 			<SmallCartDivisor>
 				<CartItemPrice>${props.price * props.quantity}</CartItemPrice>
-				<CartButtonContainer>
-					<QuantityButton onClick={() => editQuantity(-1)}>-</QuantityButton>
-					<Quantity>{props.quantity}</Quantity>
-					<QuantityButton onClick={() => editQuantity(1)}>+</QuantityButton>
-				</CartButtonContainer>
+				<ButtonBox>
+					<CartButtonContainer>
+						<QuantityButton onClick={() => editQuantity(-1)}>-</QuantityButton>
+						<Quantity>{props.quantity}</Quantity>
+						<QuantityButton onClick={() => editQuantity(1)}>+</QuantityButton>
+					</CartButtonContainer>
+				</ButtonBox>
 			</SmallCartDivisor>
 		</CartProductBox>
 	);
