@@ -8,17 +8,17 @@ import Item from "../Item/Item";
 import { ItemContainer, PopularContainer, PopularTitle } from "./PopularStyles";
 
 function Popular() {
-	const { setProducts } = useContext(Product);
+	const { populars, setPopulars } = useContext(Product);
 	const { data } = useQuery("popular", getProducts, {
 		select: (data) => getPopulars(data),
-		onSuccess: () => setProducts(data),
+		onSuccess: () => setPopulars(data),
 	});
 	return (
 		<PopularContainer>
 			<PopularTitle>Lo más destacado</PopularTitle>
 			<GlobalSubtitles>¿Qué es lo qué está de moda?</GlobalSubtitles>
 			<ItemContainer>
-				{data?.map((product) => (
+				{populars?.map((product) => (
 					<Item {...product} key={product.id} />
 				))}
 			</ItemContainer>

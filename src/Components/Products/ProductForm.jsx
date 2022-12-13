@@ -11,12 +11,21 @@ function ProductForm() {
 	const { setProducts } = useContext(Product);
 
 	const onSuccess = (data) => {
+		if (data === undefined) {
+			refetch();
+			return;
+		}
 		setProducts(transformData(data, 6));
 	};
 
-	const { data } = useQuery("products", getProducts, {
+	const onError = () => {
+		refetch();
+	};
+
+	const { data, refetch } = useQuery("products", getProducts, {
 		select: (data) => setPrices(data),
 		onSuccess,
+		onError,
 	});
 
 	const handleSubmit = (e) => {

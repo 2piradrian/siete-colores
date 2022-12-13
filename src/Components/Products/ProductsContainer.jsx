@@ -7,7 +7,6 @@ import { ListOfProducts } from "./ProductsStyles";
 
 function ProductsContainer() {
 	const { products } = useContext(Product);
-
 	const [position, setPosition] = useState(0);
 	const [list, setList] = useState([]);
 
