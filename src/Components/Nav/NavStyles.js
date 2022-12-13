@@ -66,6 +66,11 @@ export const MobileNavUl = styled.ul`
 export const MobileNavLi = styled.li`
 	font-size: 36px;
 	cursor: pointer;
+
+	& > a {
+		text-decoration: none;
+		color: ${(props) => props.theme.black};
+	}
 `;
 
 export const DeskNavContainer = styled.nav`
@@ -88,7 +93,8 @@ export const DeskNavUl = styled.ul`
 export const DeskNavLi = styled.li`
 	font-size: 25px;
 	cursor: pointer;
-	& a {
+	& > a {
+		text-decoration: none;
 		color: ${(props) => props.theme.white};
 	}
 

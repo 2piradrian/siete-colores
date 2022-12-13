@@ -9,5 +9,6 @@ export const GlobalStyle = createGlobalStyle`
     }
     html, body{       
         font-family: 'Urbanist', sans-serif;
+        scroll-behavior: smooth;
     }
 `;

@@ -54,7 +54,7 @@ export const WspIso = styled.img`
 	}
 `;
 
-export const WspLink = styled(StyledLink)`
+export const WspLink = styled.a`
 	position: sticky;
 	bottom: 10px;
 	left: 100%;

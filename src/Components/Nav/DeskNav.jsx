@@ -13,10 +13,10 @@ function DeskNav() {
 					<StyledLink to={"/products"}>Productos</StyledLink>
 				</DeskNavLi>
 				<DeskNavLi>
-					<StyledLink to={"#popular"}>Destacados</StyledLink>
+					<a href="/#popular">Destacados</a>
 				</DeskNavLi>
 				<DeskNavLi>
-					<StyledLink to={"#contact"}>Contacto</StyledLink>
+					<a href="/#contact">Contacto</a>
 				</DeskNavLi>
 			</DeskNavUl>
 		</DeskNavContainer>
