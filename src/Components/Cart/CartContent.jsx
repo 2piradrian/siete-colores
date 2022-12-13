@@ -20,9 +20,7 @@ function CartContent() {
 		0
 	);
 
-	const buyText = () => {
-		return;
-	};
+	const envio = 850;
 
 	const buyIt = () => {
 		const text = `Hola, me gustaría consultar por los siguientes articulos\n${cartList
@@ -30,6 +28,7 @@ function CartContent() {
 				return `${products.name} (${products.id}) x(${products.quantity}u.)\n`;
 			})
 			.join("")}
+			Con un total estimado de $${subtotal + envio}
 		`;
 		return encodeURI(text);
 	};
@@ -49,12 +48,12 @@ function CartContent() {
 			</CartPriceContainer>
 			<CartPriceContainer>
 				<CartH2>Envio:</CartH2>
-				<CartPrice>${860}</CartPrice>
+				<CartPrice>${envio}</CartPrice>
 			</CartPriceContainer>
 			<CartHr />
 			<CartPriceContainer>
 				<CartH2>Total:</CartH2>
-				<CartPrice>${subtotal + 860}</CartPrice>
+				<CartPrice>${subtotal + envio}</CartPrice>
 			</CartPriceContainer>
 			<StyledButtonContainer>
 				{cartList.length > 0 && (
