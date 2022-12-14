@@ -8,9 +8,9 @@ import {
 	SVGDecoration,
 } from "./HeroStyles";
 
-import isoMobile from "../../assets/isoMobile.svg";
-import circles_illustration from "../../assets/circles_illustration.svg";
-import circles_illustrationdesk from "../../assets/circles_illustrationdesk.svg";
+import isoMobile from "../../Assets/isoMobile.svg";
+import circles_illustration from "../../Assets/circles_illustration.svg";
+import circles_illustrationdesk from "../../Assets/circles_illustrationdesk.svg";
 import { ProductButton, StyledLink } from "../General/Global";
 
 function Hero() {
@@ -20,9 +20,8 @@ function Hero() {
 				<StyledImg src={isoMobile} alt="isologotipo de marca" />
 				<HeroSubContainer>
 					<StyledDescription>
-						Diseñamos productos a medida, encontrá cortantes,
-						selladores, texturizadores y toppers para facilitar tu
-						trabajo.
+						Diseñamos productos a medida, encontrá cortantes, selladores, texturizadores
+						y toppers para facilitar tu trabajo.
 					</StyledDescription>
 					<StyledLink to={"/products"}>
 						<ProductButton>Ver productos</ProductButton>
@@ -30,11 +29,7 @@ function Hero() {
 				</HeroSubContainer>
 			</HeroPresentation>
 			<SVGDecoration
-				src={
-					visualViewport.width > 900
-						? circles_illustrationdesk
-						: circles_illustration
-				}
+				src={visualViewport.width > 900 ? circles_illustrationdesk : circles_illustration}
 				alt="imagen de decoración"
 			/>
 		</HeroContainer>

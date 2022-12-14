@@ -1,24 +1,21 @@
 import React from "react";
-import { useContext } from "react";
-import { useQuery } from "react-query";
-import { Product } from "../../Context/Product";
-import { getPopulars, getProducts } from "../../db/queries";
-import { GlobalSubtitles, ProductButton, StyledLink } from "../General/Global";
 import Item from "../Item/Item";
+import { useQuery } from "react-query";
+import { useDispatch, useSelector } from "react-redux";
+import { getProducts } from "../../db/queries";
+import { set_populars } from "../../Redux/Actions/creators";
+import { GlobalSubtitles, ProductButton, StyledLink } from "../General/Global";
 import { ItemContainer, PopularContainer, PopularTitle } from "./PopularStyles";
 
 function Popular() {
-	const { populars, setPopulars } = useContext(Product);
-	const { data, refetch } = useQuery("popular", getProducts, {
-		select: (data) => getPopulars(data),
-		onSuccess: () => {
-			if (data === undefined) {
-				refetch();
-				return;
-			}
-			setPopulars(data);
+	const state = useSelector((state) => state.populars);
+	const dispatch = useDispatch();
+
+	const { refetch } = useQuery("populars", getProducts, {
+		onSuccess: (data) => {
+			dispatch(set_populars(data));
 		},
-		onError: () => console.log(data),
+		onError: () => refetch(),
 	});
 
 	return (
@@ -26,7 +23,7 @@ function Popular() {
 			<PopularTitle>Lo más destacado</PopularTitle>
 			<GlobalSubtitles>¿Qué es lo qué está de moda?</GlobalSubtitles>
 			<ItemContainer>
-				{populars?.map((product) => (
+				{state?.map((product) => (
 					<Item {...product} key={product.id} />
 				))}
 			</ItemContainer>

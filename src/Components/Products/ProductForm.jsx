@@ -1,39 +1,25 @@
 import React from "react";
 import { Input } from "../General/Global";
 import { Filter, Option, SearchForm, Selector, SelectorContainer } from "./ProductsStyles";
-import { useContext } from "react";
 import { useQuery } from "react-query";
-import { Product } from "../../Context/Product";
-
-import { filterProducts, getProducts, setPrices, transformData } from "../../db/queries";
+import { getProducts } from "../../db/queries";
+import { useDispatch } from "react-redux";
+import { filter_products, set_products } from "../../Redux/Actions/creators";
 
 function ProductForm() {
-	const { setProducts } = useContext(Product);
-
-	const onSuccess = (data) => {
-		if (data === undefined) {
-			refetch();
-			return;
-		}
-		setProducts(transformData(data, 6));
-	};
-
-	const onError = () => {
-		refetch();
-	};
+	const dispatch = useDispatch();
 
 	const { data, refetch } = useQuery("products", getProducts, {
-		select: (data) => setPrices(data),
-		onSuccess,
-		onError,
+		onSuccess: (data) => {
+			dispatch(set_products(data));
+		},
+		onError: () => refetch(),
 	});
 
 	const handleSubmit = (e) => {
 		e.preventDefault();
 		const formData = new FormData(e.target);
-		const productData = Object.fromEntries(formData);
-		const newData = filterProducts(data, productData);
-		setProducts(transformData(newData, 6));
+		dispatch(filter_products(data, formData));
 	};
 
 	return (
