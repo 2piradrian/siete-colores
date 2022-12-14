@@ -31,6 +31,11 @@ export const ProductContext = ({ children }) => {
 		saveLocalStorage(newList.sort(sortCart));
 	};
 
+	const cleanCart = () => {
+		setCartList([]);
+		saveLocalStorage([]);
+	};
+
 	const sortCart = (a, b) => {
 		if (a.id > b.id) {
 			return -1;
@@ -52,6 +57,7 @@ export const ProductContext = ({ children }) => {
 				deleteItem,
 				populars,
 				setPopulars,
+				cleanCart,
 			}}
 		>
 			{children}

@@ -213,3 +213,18 @@ export const StyledButtonContainer = styled.div`
 		text-decoration: none;
 	}
 `;
+
+export const CartTitlesContainer = styled.div`
+	width: 100%;
+	max-width: 1100px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+	& > p {
+		width: 120px;
+		text-align: end;
+		text-decoration: underline;
+		cursor: pointer;
+	}
+`;

@@ -18,6 +18,7 @@ export const prices = {
 	PRECIO15: 380,
 	PRECIO16: 910,
 	PRECIO17: 4800,
+	ENVIO: 850,
 };
 
 const productsAPI = axios.create({

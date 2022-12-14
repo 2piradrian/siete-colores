@@ -1,5 +1,6 @@
 import React, { useContext } from "react";
 import { Product } from "../../Context/Product";
+import { prices } from "../../db/queries";
 import { ActiveButton, InactiveButton, StyledLink } from "../General/Global";
 import CartProduct from "./CartProduct";
 import {
@@ -10,17 +11,18 @@ import {
 	CartPrice,
 	CartHr,
 	StyledButtonContainer,
+	CartTitlesContainer,
 } from "./CartStyles";
 
 function CartContent() {
-	const { cartList } = useContext(Product);
+	const { cartList, cleanCart } = useContext(Product);
 
 	const subtotal = cartList?.reduce(
 		(acc, cur) => acc + Number(cur.price) * Number(cur.quantity),
 		0
 	);
 
-	const envio = 850;
+	const envio = prices.ENVIO;
 
 	const buyIt = () => {
 		const text = `Hola, me gustaría consultar por los siguientes articulos\n${cartList
@@ -35,7 +37,10 @@ function CartContent() {
 
 	return (
 		<CartContainer>
-			<CartH2>Tus productos</CartH2>
+			<CartTitlesContainer>
+				<CartH2>Tus productos</CartH2>
+				<p onClick={() => cleanCart()}>Vaciar carrito</p>
+			</CartTitlesContainer>
 			<CartProductContainer>
 				{cartList.length <= 0 && <p>Vaya. Tu carrito está vacío</p>}
 				{cartList?.map((product) => (
