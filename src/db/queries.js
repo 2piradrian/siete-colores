@@ -80,11 +80,9 @@ export const getPopulars = (data) => {
 };
 
 export const transformData = (data, size) => {
-	console.log(data);
 	let dividedProducts = [];
 	for (let i = 0; i < data.length; i += size) {
 		dividedProducts.push(data.slice(i, i + size));
 	}
-	console.log(dividedProducts);
 	return dividedProducts;
 };

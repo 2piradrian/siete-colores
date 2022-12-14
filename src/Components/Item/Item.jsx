@@ -1,10 +1,14 @@
 import React, { useState } from "react";
 import { useContext } from "react";
 import { Product } from "../../Context/Product";
+import { Close } from "../General/Icons";
 import Modal from "../Modal/Modal";
 import {
 	AddButton,
+	BigImageBox,
+	CloseImg,
 	DescBox,
+	ImageContainer,
 	ItemBox,
 	ItemDesc,
 	ItemImg,
@@ -17,6 +21,7 @@ function Item(props) {
 	const { populars, products, cartList, updateCart } = useContext(Product);
 
 	const [modal, setModal] = useState(false);
+	const [image, setImage] = useState(false);
 
 	const handleAdd = () => {
 		setModal(true);
@@ -34,9 +39,14 @@ function Item(props) {
 
 	const imgDefault =
 		"https://static.vecteezy.com/system/resources/previews/005/337/799/original/icon-image-not-found-free-vector.jpg";
+
 	return (
 		<ItemBox>
-			<ItemImg src={`./db/img/${props.id}.jpg` || imgDefault} alt={props.name} />
+			<ItemImg
+				src={`./db/img/${props.id}.jpg` || imgDefault}
+				alt={props.name}
+				onClick={() => setImage(!image)}
+			/>
 			<ItemTitle>{props.name}</ItemTitle>
 			<DescBox>
 				<ItemDesc className="type">{props.type}</ItemDesc>
@@ -47,6 +57,14 @@ function Item(props) {
 				<AddButton onClick={() => handleAdd()}>Agregar</AddButton>
 			</SubContainer>
 			{modal && <Modal />}
+			{image && (
+				<BigImageBox onClick={() => setImage(!image)}>
+					<CloseImg>Click para cerrar</CloseImg>
+					<ImageContainer>
+						<ItemImg src={`./db/img/${props.id}.jpg` || imgDefault} alt={props.name} />
+					</ImageContainer>
+				</BigImageBox>
+			)}
 		</ItemBox>
 	);
 }
