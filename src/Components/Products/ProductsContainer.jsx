@@ -1,12 +1,13 @@
-import React, { useContext } from "react";
+import React from "react";
 import { useState } from "react";
 import { useEffect } from "react";
-import { Product } from "../../Context/Product";
+import { useSelector } from "react-redux";
 import Item from "../Item/Item";
 import { ListOfProducts } from "./ProductsStyles";
 
 function ProductsContainer() {
-	const { products } = useContext(Product);
+	const state = useSelector((state) => state.products);
+
 	const [position, setPosition] = useState(0);
 	const [list, setList] = useState([]);
 
@@ -17,16 +18,16 @@ function ProductsContainer() {
 	};
 
 	const handlePosition = () => {
-		if (onBottom() && position < products.length - 1) {
-			setList(list.concat(...products[position + 1]));
+		if (onBottom() && position < state.length - 1) {
+			setList(list.concat(...state[position + 1]));
 			setPosition(position + 1);
 		}
 	};
 
 	useEffect(() => {
-		setList(products[0]);
+		setList(state[0]);
 		setPosition(0);
-	}, [products]);
+	}, [state]);
 
 	useEffect(() => {
 		window.addEventListener("scroll", handlePosition);
