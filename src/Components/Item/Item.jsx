@@ -34,7 +34,7 @@ function Item(props) {
 		setModal(true);
 		setTimeout(() => {
 			setModal(false);
-		}, 5000);
+		}, 5500);
 	};
 
 	const handleAdd = () => {
