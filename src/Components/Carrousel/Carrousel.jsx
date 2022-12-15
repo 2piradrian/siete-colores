@@ -17,7 +17,7 @@ import MPaso4 from "../../Assets/Mobile/MPaso4.png";
 import MPaso5 from "../../Assets/Mobile/MPaso5.png";
 import MPaso6 from "../../Assets/Mobile/MPaso6.png";
 
-import DPresentation from "../../Assets/Mobile/MPresentation.png";
+import DPresentation from "../../Assets/Desktop/DPresentation.png";
 import DPaso1 from "../../Assets/Desktop/DPaso1.png";
 import DPaso2 from "../../Assets/Desktop/DPaso2.png";
 import DPaso3 from "../../Assets/Desktop/DPaso3.png";
