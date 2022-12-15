@@ -1,5 +1,5 @@
-import React, { useContext } from "react";
-import { Product } from "../../Context/Product";
+import React from "react";
+import { useDispatch, useSelector } from "react-redux";
 import { prices } from "../../db/queries";
 import { ActiveButton, InactiveButton, StyledLink } from "../General/Global";
 import CartProduct from "./CartProduct";
@@ -13,19 +13,14 @@ import {
 	StyledButtonContainer,
 	CartTitlesContainer,
 } from "./CartStyles";
+import { clean_cart } from "../../Redux/Actions/creators";
 
 function CartContent() {
-	const { cartList, cleanCart } = useContext(Product);
-
-	const subtotal = cartList?.reduce(
-		(acc, cur) => acc + Number(cur.price) * Number(cur.quantity),
-		0
-	);
-
-	const envio = prices.ENVIO;
+	const cart = useSelector((state) => state.cart);
+	const dispatch = useDispatch();
 
 	const buyIt = () => {
-		const text = `Hola, me gustaría consultar por los siguientes articulos\n${cartList
+		const text = `Hola, me gustaría consultar por los siguientes articulos\n${cart
 			?.map((products) => {
 				return `${products.name} (${products.id}) x(${products.quantity}u.)\n`;
 			})
@@ -35,15 +30,20 @@ function CartContent() {
 		return encodeURI(text);
 	};
 
+	/* <----- PRECIOS -----> */
+	const subtotal = cart?.reduce((acc, cur) => acc + Number(cur.price) * Number(cur.quantity), 0);
+	const envio = prices.ENVIO;
+	/* <----- ------ -----> */
+
 	return (
 		<CartContainer>
 			<CartTitlesContainer>
 				<CartH2>Tus productos</CartH2>
-				<p onClick={() => cleanCart()}>Vaciar carrito</p>
+				<p onClick={() => dispatch(clean_cart())}>Vaciar carrito</p>
 			</CartTitlesContainer>
 			<CartProductContainer>
-				{cartList.length <= 0 && <p>Vaya. Tu carrito está vacío</p>}
-				{cartList?.map((product) => (
+				{cart.length <= 0 && <p>Vaya. Tu carrito está vacío</p>}
+				{cart?.map((product) => (
 					<CartProduct {...product} key={product.id} />
 				))}
 			</CartProductContainer>
@@ -61,7 +61,7 @@ function CartContent() {
 				<CartPrice>${subtotal + envio}</CartPrice>
 			</CartPriceContainer>
 			<StyledButtonContainer>
-				{cartList.length > 0 && (
+				{cart.length > 0 && (
 					<a
 						href={`https://api.whatsapp.com/send?phone=543512742036&text=${buyIt()}`}
 						target="_blank"
@@ -69,7 +69,7 @@ function CartContent() {
 						<ActiveButton>Solicitar al vendedor</ActiveButton>
 					</a>
 				)}
-				{cartList.length <= 0 && <InactiveButton>Solicitar al vendedor</InactiveButton>}
+				{cart.length <= 0 && <InactiveButton>Solicitar al vendedor</InactiveButton>}
 				<StyledLink to="/products">
 					<ActiveButton>Ver más productos</ActiveButton>
 				</StyledLink>

@@ -16,7 +16,7 @@ export const cartReducer = (state = cart, action) => {
 			saveLocalStorage(state);
 			return state;
 		case DELETE_ITEM:
-			state = state.filter((item) => item.id !== state.id);
+			state = state.filter((item) => item.id !== payload.id);
 			saveLocalStorage(state);
 			return state;
 		case UPDATE_ITEM:

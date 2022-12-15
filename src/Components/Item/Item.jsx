@@ -1,10 +1,7 @@
 import React, { useState } from "react";
-import { useContext } from "react";
 import { useSelector } from "react-redux";
 import { useDispatch } from "react-redux/es/exports";
-import { Product } from "../../Context/Product";
 import { add_item } from "../../Redux/Actions/creators";
-import { Close } from "../General/Icons";
 import Modal from "../Modal/Modal";
 import {
 	AddButton,
@@ -37,16 +34,21 @@ function Item(props) {
 		}, 5500);
 	};
 
-	const handleAdd = () => {
-		showModal();
-		if (cart.some((cart) => cart.id === props.id)) {
-			return;
-		}
-
-		const item = props.popular
+	const getItem = () => {
+		let item = props.popular
 			? populars?.flat(1).filter((product) => product.id === props.id)
 			: products?.flat(1).filter((product) => product.id === props.id);
+		if (!item.length) {
+			item = products?.flat(1).filter((product) => product.id === props.id);
+		}
+		return item;
+	};
 
+	const handleAdd = () => {
+		showModal();
+		if (cart.some((cart) => cart.id === props.id)) return;
+
+		const item = getItem();
 		if (item) {
 			dispatch(add_item(item));
 		}

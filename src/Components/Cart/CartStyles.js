@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { wide1000, wide800, wide900 } from "../../Themes/MediaQuery";
+import { wide800, wide900 } from "../../Themes/MediaQuery";
 
 export const CartContainer = styled.div`
 	height: 100vh;
@@ -222,7 +222,7 @@ export const CartTitlesContainer = styled.div`
 	align-items: center;
 
 	& > p {
-		width: 120px;
+		width: 150px;
 		text-align: end;
 		text-decoration: underline;
 		cursor: pointer;

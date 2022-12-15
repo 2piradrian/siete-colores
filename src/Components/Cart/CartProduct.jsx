@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
-import { useContext } from "react";
-import { Product } from "../../Context/Product";
+import { useDispatch, useSelector } from "react-redux";
+import { delete_item, update_item } from "../../Redux/Actions/creators";
 import {
 	BigCartDivisor,
 	CartButtonContainer,
@@ -17,29 +17,30 @@ import {
 } from "./CartStyles";
 
 function CartProduct(props) {
-	const [title, setTitle] = useState(props.name);
+	const cart = useSelector((state) => state.cart);
+	const dispatch = useDispatch();
 
-	const { cartList, updateItem, updateCart, deleteItem } = useContext(Product);
+	const [title, setTitle] = useState(props.name);
 
 	useEffect(() => {
 		const titleCheck = props.name;
 		const viewport = window.innerWidth;
 
 		if (titleCheck.length > 13 && viewport < 500) {
-			setTitle(titleCheck?.slice(0, 13) + "...");
+			setTitle(titleCheck.slice(0, 13) + "...");
 		} else {
 			setTitle(titleCheck);
 		}
 	}, [props.name]);
 
 	const editQuantity = (number) => {
-		const item = cartList.filter((item) => item.id === props.id);
+		const item = cart.filter((item) => item.id === props.id);
 		const updatedItem = { ...item[0], quantity: item[0].quantity + number };
 		if (updatedItem.quantity < 1) {
-			deleteItem(item[0]);
+			dispatch(delete_item(item));
 			return;
 		}
-		updateItem(updatedItem);
+		dispatch(update_item(updatedItem));
 	};
 
 	return (
