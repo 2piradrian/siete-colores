@@ -1,6 +1,6 @@
 import React from "react";
 import { WspLink } from "../General/Global";
-import whatsapp_button from "../../Assets/whatsapp_button.svg";
+import whatsapp_button from "../../assets/whatsapp_button.svg";
 import { WspIso } from "../General/Global";
 
 function WhatsappIcon() {

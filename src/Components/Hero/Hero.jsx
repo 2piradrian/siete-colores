@@ -8,9 +8,9 @@ import {
 	SVGDecoration,
 } from "./HeroStyles";
 
-import isoMobile from "../../Assets/isoMobile.svg";
-import circles_illustration from "../../Assets/circles_illustration.svg";
-import circles_illustrationdesk from "../../Assets/circles_illustrationdesk.svg";
+import isoMobile from "../../assets/isoMobile.svg";
+import circles_illustration from "../../assets/circles_illustration.svg";
+import circles_illustrationdesk from "../../assets/circles_illustrationdesk.svg";
 import { ProductButton, StyledLink } from "../General/Global";
 
 function Hero() {

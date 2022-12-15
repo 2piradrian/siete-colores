@@ -9,21 +9,21 @@ import {
 	TutorialImage,
 } from "./CarrouselStyles";
 
-import MPresentation from "../../Assets/Mobile/MPresentation.png";
-import MPaso1 from "../../Assets/Mobile/MPaso1.png";
-import MPaso2 from "../../Assets/Mobile/MPaso2.png";
-import MPaso3 from "../../Assets/Mobile/MPaso3.png";
-import MPaso4 from "../../Assets/Mobile/MPaso4.png";
-import MPaso5 from "../../Assets/Mobile/MPaso5.png";
-import MPaso6 from "../../Assets/Mobile/MPaso6.png";
+import MPresentation from "../../assets/Mobile/MPresentation.png";
+import MPaso1 from "../../assets/Mobile/MPaso1.png";
+import MPaso2 from "../../assets/Mobile/MPaso2.png";
+import MPaso3 from "../../assets/Mobile/MPaso3.png";
+import MPaso4 from "../../assets/Mobile/MPaso4.png";
+import MPaso5 from "../../assets/Mobile/MPaso5.png";
+import MPaso6 from "../../assets/Mobile/MPaso6.png";
 
-import DPresentation from "../../Assets/Desktop/DPresentation.png";
-import DPaso1 from "../../Assets/Desktop/DPaso1.png";
-import DPaso2 from "../../Assets/Desktop/DPaso2.png";
-import DPaso3 from "../../Assets/Desktop/DPaso3.png";
-import DPaso4 from "../../Assets/Desktop/DPaso4.png";
-import DPaso5 from "../../Assets/Desktop/DPaso5.png";
-import DPaso6 from "../../Assets/Desktop/DPaso6.png";
+import DPresentation from "../../assets/Desktop/DPresentation.png";
+import DPaso1 from "../../assets/Desktop/DPaso1.png";
+import DPaso2 from "../../assets/Desktop/DPaso2.png";
+import DPaso3 from "../../assets/Desktop/DPaso3.png";
+import DPaso4 from "../../assets/Desktop/DPaso4.png";
+import DPaso5 from "../../assets/Desktop/DPaso5.png";
+import DPaso6 from "../../assets/Desktop/DPaso6.png";
 
 import { useState } from "react";
 
