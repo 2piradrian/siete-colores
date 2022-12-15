@@ -28,9 +28,11 @@ function Item(props) {
 		setTimeout(() => {
 			setModal(false);
 		}, 5000);
+
 		if (cartList.some((cart) => cart.id === props.id)) {
 			return;
 		}
+
 		const item = props.popular
 			? populars.flat(1).filter((product) => product.id === props.id)
 			: products.flat(1).filter((product) => product.id === props.id);

@@ -3,7 +3,10 @@ import { prices } from "../../db/queries";
 // UTILS //
 
 const filterByName = (data, filterData) => {
-	data.filter((product) => product.name.toLowerCase().includes(filterData.name.toLowerCase()));
+	data = data.filter((product) =>
+		product.name.toLowerCase().includes(filterData.name.toLowerCase())
+	);
+	console.log(data);
 	return data;
 };
 

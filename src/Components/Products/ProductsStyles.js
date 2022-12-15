@@ -72,7 +72,7 @@ export const Filter = styled(ActiveButton)`
 
 export const ListOfProducts = styled.div`
 	width: 100%;
-	max-width: 1100px;
+	max-width: 1350px;
 	padding: 20px;
 	display: flex;
 	flex-wrap: wrap;
