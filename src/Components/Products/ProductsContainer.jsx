@@ -43,6 +43,7 @@ function ProductsContainer() {
 			{list?.map((product) => (
 				<Item {...product} key={product.id} />
 			))}
+			{!list?.length && <p>Vaya, no hemos encontrado resultados</p>}
 		</ListOfProducts>
 	);
 }
