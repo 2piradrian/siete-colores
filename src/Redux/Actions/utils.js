@@ -6,7 +6,6 @@ const filterByName = (data, filterData) => {
 	data = data.filter((product) =>
 		product.name.toLowerCase().includes(filterData.name.toLowerCase())
 	);
-	console.log(data);
 	return data;
 };
 
@@ -68,4 +67,14 @@ export const divideProducts = (data, size) => {
 		dividedProducts.push(data.slice(i, i + size));
 	}
 	return dividedProducts;
+};
+
+export const sortCart = (a, b) => {
+	if (a.id > b.id) {
+		return -1;
+	}
+	if (b.id > a.id) {
+		return 1;
+	}
+	return 0;
 };

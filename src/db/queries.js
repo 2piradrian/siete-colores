@@ -21,11 +21,7 @@ export const prices = {
 	ENVIO: 850,
 };
 
-const productsAPI = axios.create({
-	baseURL: "./db/db.json",
-});
-
 export const getProducts = async () => {
-	const res = await productsAPI.get("");
+	const res = await axios.get("./db/db.json");
 	return res.data;
 };
