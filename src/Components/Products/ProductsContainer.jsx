@@ -11,6 +11,7 @@ function ProductsContainer() {
 	const [position, setPosition] = useState(0);
 	const [list, setList] = useState([]);
 
+	// <-- Scroll Animation --> //
 	const onBottom = () => {
 		const { scrollTop, clientHeight, scrollHeight } = document.documentElement;
 		const bottom = scrollTop + clientHeight >= scrollHeight - 175;
@@ -35,6 +36,7 @@ function ProductsContainer() {
 			window.removeEventListener("scroll", handlePosition);
 		};
 	});
+	// <-- Scroll Animation --> //
 
 	return (
 		<ListOfProducts>

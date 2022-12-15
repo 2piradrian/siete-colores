@@ -6,10 +6,9 @@ export const productsReducer = (state = [], action) => {
 	switch (type) {
 		case FILTER_PRODUCTS:
 			const filterData = Object.fromEntries(payload.formData);
-			state = setPrices(payload);
-			state = filterProducts(payload.data, filterData);
+			state = setPrices(payload.data);
+			state = filterProducts(state, filterData);
 			state = divideProducts(state, 6);
-			console.log(state);
 			return state;
 		case SET_PRODUCTS:
 			state = setPrices(payload);
