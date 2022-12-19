@@ -92,3 +92,7 @@ export const Input = styled.input`
 		margin: 20px;
 	}
 `;
+
+export const H1 = styled.h1`
+	font-size: 26px;
+`;

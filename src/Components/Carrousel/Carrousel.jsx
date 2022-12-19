@@ -26,6 +26,7 @@ import DPaso5 from "../../assets/Desktop/DPaso5.png";
 import DPaso6 from "../../assets/Desktop/DPaso6.png";
 
 import { useState } from "react";
+import { H1 } from "../General/Global";
 
 function Carrousel() {
 	const MobileImages = [MPresentation, MPaso1, MPaso2, MPaso3, MPaso4, MPaso5, MPaso6];
@@ -45,6 +46,7 @@ function Carrousel() {
 
 	return (
 		<CarrouselContainer>
+			<H1>Siete Colores.</H1>
 			<CarrouselSubtitle>¿Tenes dudas?</CarrouselSubtitle>
 			<CarrouselSubtitle>Te dejamos un tutorial</CarrouselSubtitle>
 			<TutorialContainer>
