@@ -1,23 +1,26 @@
-import React from "react";
-import { useDispatch, useSelector } from "react-redux";
-import { prices } from "../../db/queries";
 import { ActiveButton, InactiveButton, StyledLink } from "../General/Global";
-import CartProduct from "./CartProduct";
 import {
 	CartContainer,
 	CartH2,
+	CartHr,
+	CartPrice,
 	CartPriceContainer,
 	CartProductContainer,
-	CartPrice,
-	CartHr,
-	StyledButtonContainer,
 	CartTitlesContainer,
+	StyledButtonContainer,
 } from "./CartStyles";
+import { useDispatch, useSelector } from "react-redux";
+
+import CartProduct from "./CartProduct";
+import React from "react";
 import { clean_cart } from "../../Redux/Actions/creators";
+import { prices } from "../../db/queries";
 
 function CartContent() {
 	const cart = useSelector((state) => state.cart);
 	const dispatch = useDispatch();
+
+	// ---> REFACT A HOOK
 
 	const buyIt = () => {
 		const text = `Hola, me gustaría consultar por los siguientes articulos\n${cart
@@ -35,18 +38,26 @@ function CartContent() {
 	const envio = prices.ENVIO;
 	/* <----- ------ -----> */
 
+	//  REFACT A HOOK <---
+
 	return (
 		<CartContainer>
 			<CartTitlesContainer>
 				<CartH2>Tus productos</CartH2>
 				<p onClick={() => dispatch(clean_cart())}>Vaciar carrito</p>
 			</CartTitlesContainer>
+
 			<CartProductContainer>
 				{cart.length <= 0 && <p>Vaya. Tu carrito está vacío</p>}
 				{cart?.map((product) => (
 					<CartProduct {...product} key={product.id} />
 				))}
 			</CartProductContainer>
+			{
+				{
+					/* nuevo componente */
+				}
+			}
 			<CartPriceContainer>
 				<CartH2>Subtotal:</CartH2>
 				<CartPrice>${subtotal}</CartPrice>
